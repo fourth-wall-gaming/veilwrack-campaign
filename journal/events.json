@@ -32,8 +32,8 @@
   {
     "id": "myth-event-d6ac63bef692",
     "type": "scene",
-    "summary": "HIRING AND TERMS: At Lanternfall Spire, Commander Esk Veil-Torn took Vorrh into the Warden draft as survey diver and set one standing condition: she is told first, about everything, before anyone else. In the same meeting she shared the plight of Tilve Wickmend, the hushed lampwright of the western face - silent for two years since a tethered dive below the skim, still lighting every lamp on schedule, counting to eighty-one each night on the lowest ring and stopping.",
-    "narrative": "Esk's condition, stated plainly: 'I don't pay for heroics and I don't forgive surprises. Whatever you find down there, I hear it first.' Vorrh accepted. Esk laid out Tilve's case as a commander reporting a casualty still on her roster: who she was, what the dive took from her, the count that never finishes.",
+    "summary": "HIRING AND TERMS: At Lanternfall Spire, Commander Esk Veil-Torn took Vorrh into the Warden draft as survey diver, with one standing condition: she is told first, about everything. In the same meeting she shared the plight of Tilve Wickmend, the hushed lampwright of the western face.",
+    "narrative": null,
     "session": null,
     "involves": [
       "myth-char-090b0e0c6b34",
@@ -45,8 +45,8 @@
   {
     "id": "myth-event-859ee079d68b",
     "type": "scene",
-    "summary": "THE RING GIVEN: Vorrh sought out Tilve Wickmend at the western lamp-rings and unwrapped Hollm's cold-wax bundle before her: the spliced sinew betrothal ring, broken once, mended toward her. Tilve said nothing - she has said nothing for two years. She took the ring and kept it. Vorrh kept the waxed finger-bone, marked 'witnessed: Vorrh'. Why: she was handed a sealed record instead of a husband, and Vorrh came to Lanternfall to pay Hollm's debt of truth.",
-    "narrative": "No words were exchanged; none were possible. Vorrh told her whose ring it was and how it was found. Tilve closed her hand around it and returned to her wicks. The transfer of the ring is the first acknowledgment anyone has given her that the Synod's record of Hollm's death is false.",
+    "summary": "THE RING GIVEN: Vorrh visited Tilve Wickmend at the western lamp-rings and gave her the wax-covered ring. She kept it.",
+    "narrative": null,
     "session": null,
     "involves": [
       "myth-char-3244f2daf6c4",
@@ -58,8 +58,8 @@
   {
     "id": "myth-event-e8233a49bd77",
     "type": "decision",
-    "summary": "PERMISSION FOR THE RITE: Vorrh returned to Commander Esk and asked leave to perform the descent-rite for Hollm at the skim during the contracted edge survey. Esk agreed under conditions: the survey contract comes first and is completed in full; everything that happens below is reported to her, first, withholding nothing; he dives on Warden tether discipline. She assigned Kithrel of the Moult as count-keeper and survey support for the dive.",
-    "narrative": "Esk's terms restated her standing rule - told first, about everything. Vorrh accepted all three conditions. Kithrel's assignment pairs the draft's best survey-flier with its newest diver.",
+    "summary": "PERMISSION FOR THE RITE: Vorrh returned to Esk and asked leave to perform funeral rites at the skim. She agreed under conditions and assigned Kithrel to help.",
+    "narrative": null,
     "session": null,
     "involves": [
       "myth-char-07de1099b49c",
