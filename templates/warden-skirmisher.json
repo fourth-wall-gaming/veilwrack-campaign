@@ -1,0 +1,162 @@
+{
+  "id": "myth-tmpl-79f8864232b3",
+  "name": "Warden Skirmisher",
+  "description": "Typical Gale Warden flight-mate. Skirmishing trait: may shoot while flying at a Run.",
+  "narrative": null,
+  "characteristics": {
+    "STR": 11,
+    "CON": 12,
+    "SIZ": 9,
+    "DEX": 16,
+    "INT": 12,
+    "POW": 11,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 14,
+    "luck_points": 2,
+    "magic_points": 11,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 52,
+    "Boating": 23,
+    "Brawn": 20,
+    "Conceal": 27,
+    "Dance": 27,
+    "Deceit": 23,
+    "Drive": 27,
+    "Endurance": 50,
+    "Evade": 55,
+    "First Aid": 45,
+    "Influence": 22,
+    "Insight": 23,
+    "Locale": 24,
+    "Perception": 48,
+    "Ride": 27,
+    "Sing": 22,
+    "Stealth": 44,
+    "Unarmed": 27,
+    "Willpower": 40,
+    "Flight": 62,
+    "Customs": 64,
+    "Native Tongue": 63
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 5,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 2,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Wingspear",
+      "damage": "1d8+1",
+      "size": "M"
+    },
+    {
+      "name": "Stormbow",
+      "damage": "1d8",
+      "size": "L"
+    },
+    {
+      "name": "Dagger",
+      "damage": "1d4+1",
+      "size": "S"
+    }
+  ],
+  "combat_styles": {
+    "Warden Skirmisher": 55
+  },
+  "created_at": "2026-06-11T20:22:15"
+}

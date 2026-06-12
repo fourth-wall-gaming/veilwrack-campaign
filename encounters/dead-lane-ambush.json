@@ -1,0 +1,29 @@
+{
+  "id": "myth-enc-3bdf6fd8a51f",
+  "name": "Dead lane ambush",
+  "description": "On the fringe of the Lanternfall Stilling, a Hushed lampwright steps soundlessly from a lane-shrine as Kithrel surveys on foot.",
+  "summary": "Kithrel held the lane-shrine doorway against the Hushed lampwright, taking a talon scratch and a lungful of stolen quiet (Winded) before wounding it through the abdomen. The Hushed broke off and drifted back into the dead air, pausing once to look at her with perfect recognition.",
+  "status": "resolved",
+  "round": 2,
+  "combatants": [
+    {
+      "id": "myth-char-3244f2daf6c4",
+      "name": "The Hushed Lampwright",
+      "initiative": 18,
+      "ap": 0,
+      "max_ap": 2,
+      "conditions": [],
+      "dex": 14
+    },
+    {
+      "id": "myth-char-07de1099b49c",
+      "name": "Kithrel of the Moult",
+      "initiative": 11,
+      "ap": 0,
+      "max_ap": 2,
+      "conditions": [],
+      "dex": 17
+    }
+  ],
+  "created_at": "2026-06-11T20:24:47"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "myth-tmpl-5be4fbf3ace2",
+  "name": "Stillwight",
+  "description": "Glass-jellyfish predator of dead air, 2m bell, near-invisible (Formidable Perception to spot). Envelop = leaping attack at head; victim asphyxiates per SRD. Weapons under M pass through on normal success. Single hit location (Bell, HP 8). Splits in two after a kill.",
+  "narrative": null,
+  "characteristics": {
+    "STR": 6,
+    "CON": 12,
+    "SIZ": 10,
+    "DEX": 16,
+    "INT": 4,
+    "POW": 16,
+    "CHA": 3
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": -1,
+    "healing_rate": 2,
+    "initiative_bonus": 10,
+    "luck_points": 3,
+    "magic_points": 16,
+    "movement": "6m"
+  },
+  "skills": {
+    "Athletics": 22,
+    "Boating": 18,
+    "Brawn": 16,
+    "Conceal": 32,
+    "Dance": 19,
+    "Deceit": 7,
+    "Drive": 32,
+    "Endurance": 54,
+    "Evade": 52,
+    "First Aid": 20,
+    "Influence": 6,
+    "Insight": 20,
+    "Locale": 8,
+    "Perception": 58,
+    "Ride": 32,
+    "Sing": 19,
+    "Stealth": 78,
+    "Swim": 18,
+    "Unarmed": 22,
+    "Willpower": 32,
+    "Customs": 48,
+    "Native Tongue": 47
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        3
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        4,
+        6
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        7,
+        9
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        10,
+        12
+      ],
+      "ap": 0,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        13,
+        15
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        16,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Smother",
+      "damage": "0",
+      "size": "M"
+    }
+  ],
+  "combat_styles": {
+    "Envelop": 50
+  },
+  "created_at": "2026-06-11T20:22:15"
+}

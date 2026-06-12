@@ -1,0 +1,182 @@
+{
+  "id": "myth-char-07de1099b49c",
+  "name": "Kithrel of the Moult",
+  "type": "pc",
+  "status": "active",
+  "description": "Vael courier turned Gale Warden; the fastest survey-flier in the company",
+  "narrative": "Kithrel flew the Greywake windlane as a fledgling courier and was off-shift the day the Spire sank. Everyone she trained with was not. She joined the Wardens the next season and has flown survey on every new Stilling since, charting dead air edges closer than regulations allow. She keeps her dead flight's lane-tokens braided into her primaries.",
+  "characteristics": {
+    "STR": 11,
+    "CON": 13,
+    "SIZ": 9,
+    "DEX": 17,
+    "INT": 14,
+    "POW": 12,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 15,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 58,
+    "Boating": 24,
+    "Brawn": 20,
+    "Conceal": 29,
+    "Dance": 28,
+    "Deceit": 25,
+    "Drive": 29,
+    "Endurance": 46,
+    "Evade": 62,
+    "First Aid": 41,
+    "Influence": 22,
+    "Insight": 40,
+    "Locale": 28,
+    "Perception": 55,
+    "Ride": 29,
+    "Sing": 23,
+    "Stealth": 50,
+    "Unarmed": 28,
+    "Willpower": 24,
+    "Flight": 75,
+    "Customs": 68,
+    "Native Tongue": 65,
+    "Navigation": 52,
+    "Survival": 45
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 5,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 2,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Wingspear",
+      "damage": "1d8+1",
+      "size": "M"
+    },
+    {
+      "name": "Stormbow",
+      "damage": "1d8",
+      "size": "L"
+    },
+    {
+      "name": "Dagger",
+      "damage": "1d4+1",
+      "size": "S"
+    }
+  ],
+  "passions": {
+    "Loyalty to the Gale Wardens": 62,
+    "Recover the Greywake dead": 48,
+    "Fear the Still Air": 51
+  },
+  "combat_styles": {
+    "Warden Skirmisher": 58
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Winded",
+  "luck_current": 2,
+  "magic_current": 12,
+  "experience_rolls": 0,
+  "location": "myth-loc-f3c849a67a27",
+  "factions": [
+    "myth-faction-e44c881ec80e"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-11T20:23:15"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "myth-tmpl-4420056dfcfd",
+  "name": "Hushed Alar",
+  "description": "An Alar emptied by a Stilling: silent, grey-rooted feathers, cannot fly, extends 3m of dead air. Quieting Grip on Grip effect: opposed Endurance vs 60 or +1 Fatigue per round held. Immune to exertion Fatigue and asphyxiation. Death-burst: 5m Endurance roll or Winded.",
+  "narrative": null,
+  "characteristics": {
+    "STR": 9,
+    "CON": 13,
+    "SIZ": 9,
+    "DEX": 14,
+    "INT": 10,
+    "POW": 14,
+    "CHA": 4
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": -1,
+    "healing_rate": 3,
+    "initiative_bonus": 12,
+    "luck_points": 3,
+    "magic_points": 14,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 43,
+    "Boating": 22,
+    "Brawn": 38,
+    "Conceal": 28,
+    "Dance": 18,
+    "Deceit": 14,
+    "Drive": 28,
+    "Endurance": 56,
+    "Evade": 48,
+    "First Aid": 24,
+    "Influence": 8,
+    "Insight": 24,
+    "Locale": 20,
+    "Perception": 44,
+    "Ride": 28,
+    "Sing": 18,
+    "Stealth": 64,
+    "Unarmed": 23,
+    "Willpower": 58,
+    "Flight": 23,
+    "Customs": 60,
+    "Native Tongue": 54
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 0,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Talons",
+      "damage": "1d4",
+      "size": "S"
+    }
+  ],
+  "combat_styles": {
+    "Grasp of the Quiet": 45
+  },
+  "created_at": "2026-06-11T20:22:14"
+}

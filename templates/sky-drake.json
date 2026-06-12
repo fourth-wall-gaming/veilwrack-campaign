@@ -1,0 +1,164 @@
+{
+  "id": "myth-tmpl-6b3b8d70b56b",
+  "name": "Sky-Drake",
+  "description": "Apex predator of the windlanes: 7m wingspan raptor-lizard. Opens with diving charge (+2 DM steps, Hard attack). Flees at half chest HP.",
+  "narrative": null,
+  "characteristics": {
+    "STR": 22,
+    "CON": 15,
+    "SIZ": 24,
+    "DEX": 13,
+    "INT": 5,
+    "POW": 10,
+    "CHA": 3
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d10",
+    "experience_modifier": -1,
+    "healing_rate": 3,
+    "initiative_bonus": 9,
+    "luck_points": 2,
+    "magic_points": 10,
+    "movement": "6m"
+  },
+  "skills": {
+    "Athletics": 65,
+    "Boating": 37,
+    "Brawn": 72,
+    "Conceal": 23,
+    "Dance": 16,
+    "Deceit": 8,
+    "Drive": 23,
+    "Endurance": 60,
+    "Evade": 36,
+    "First Aid": 18,
+    "Influence": 6,
+    "Insight": 15,
+    "Locale": 10,
+    "Perception": 62,
+    "Ride": 23,
+    "Sing": 13,
+    "Stealth": 18,
+    "Swim": 37,
+    "Unarmed": 35,
+    "Willpower": 20,
+    "Flight": 70,
+    "Customs": 50,
+    "Native Tongue": 48,
+    "Track": 55
+  },
+  "hit_locations": [
+    {
+      "name": "Right Hind Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Left Hind Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Hindquarters",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 4,
+      "hp": 9,
+      "current_hp": 9
+    },
+    {
+      "name": "Forequarters",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 4,
+      "hp": 9,
+      "current_hp": 9
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Right Front Leg",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Left Front Leg",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Bite",
+      "damage": "1d8",
+      "size": "L"
+    },
+    {
+      "name": "Claw",
+      "damage": "1d6",
+      "size": "M"
+    },
+    {
+      "name": "Tail-lash",
+      "damage": "1d6",
+      "size": "M"
+    }
+  ],
+  "combat_styles": {
+    "Stoop and Rend": 62
+  },
+  "created_at": "2026-06-11T20:22:15"
+}

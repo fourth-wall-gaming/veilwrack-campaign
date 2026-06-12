@@ -1,0 +1,157 @@
+{
+  "id": "myth-tmpl-cec29d2d5972",
+  "name": "Marrower Bravo",
+  "description": "Spire-root tough of the Marrower gangs. Talon-hook can Sunder.",
+  "narrative": null,
+  "characteristics": {
+    "STR": 13,
+    "CON": 12,
+    "SIZ": 10,
+    "DEX": 14,
+    "INT": 9,
+    "POW": 9,
+    "CHA": 9
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 11,
+    "luck_points": 2,
+    "magic_points": 9,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 47,
+    "Boating": 25,
+    "Brawn": 43,
+    "Conceal": 23,
+    "Dance": 23,
+    "Deceit": 18,
+    "Drive": 23,
+    "Endurance": 48,
+    "Evade": 42,
+    "First Aid": 23,
+    "Influence": 18,
+    "Insight": 18,
+    "Locale": 18,
+    "Perception": 38,
+    "Ride": 23,
+    "Sing": 18,
+    "Stealth": 40,
+    "Unarmed": 27,
+    "Willpower": 36,
+    "Flight": 52,
+    "Customs": 58,
+    "Native Tongue": 58
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 2,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 2,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Talon-hook",
+      "damage": "1d6+1",
+      "size": "M"
+    },
+    {
+      "name": "Buckler",
+      "damage": "1d3",
+      "size": "M"
+    }
+  ],
+  "combat_styles": {
+    "Rootworks Scrapper": 48
+  },
+  "created_at": "2026-06-11T20:22:15"
+}

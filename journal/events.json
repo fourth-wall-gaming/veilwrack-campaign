@@ -1,0 +1,32 @@
+[
+  {
+    "id": "myth-event-a3c58a58e17f",
+    "type": "gm-note",
+    "summary": "Campaign seeded: Veilwrack setting, 4 locations, 5 factions, 5 creature templates.",
+    "narrative": null,
+    "session": 0,
+    "involves": [],
+    "at": "2026-06-11T20:22:15"
+  },
+  {
+    "id": "myth-event-dbf3b54dc8d4",
+    "type": "combat",
+    "summary": "First contact: Kithrel fought a Hushed lampwright at the Lanternfall lane-shrine and drove it off wounded.",
+    "narrative": "Mechanics: Hushed won Grip (Kithrel failed Endurance vs 60, now Winded). Kithrel dealt a minor abdomen wound (2 dmg) past a critical parry. It recognized her: hook for the Hushed-remember thread.",
+    "session": 1,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-3244f2daf6c4"
+    ],
+    "at": "2026-06-11T20:27:56"
+  },
+  {
+    "id": "myth-event-aea6b65d102d",
+    "type": "session-end",
+    "summary": "Session 1 close: Lanternfall fringe surveyed; evacuation viable but the Stilling has reached the lane-shrine. One Hushed encountered and driven off.",
+    "narrative": null,
+    "session": 1,
+    "involves": [],
+    "at": "2026-06-11T20:27:56"
+  }
+]
