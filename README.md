@@ -27,6 +27,7 @@ campaign format (v1.0).
 | `factions/` | Factions and organizations (markdown + frontmatter) |
 | `encounters/` | Combat encounter state (JSON) |
 | `journal/` | The campaign event log (JSON) |
+| `novels/` | Novelizations of actual play, one directory per protagonist/party |
 
 The canonical full-prose worldbook sources live in [`setting/`](setting/) — see its README for the book list and audience guide. The `lore/` files below are the same material sliced into database-ready entries.
 
@@ -145,6 +146,21 @@ The canonical full-prose worldbook sources live in [`setting/`](setting/) — se
 - [The Marrowers](factions/the-marrowers.md) — Industrial guild tapping spire-marrow breath as lift-gas. Profitable. Catastrophic.
 - [The Lanhawk Mews](factions/the-lanhawk-mews.md) — The loose council of windlane pirate clutches out of the Veyl Reefs.
 - [The Deepway of Carrowspar](factions/the-deepway-of-carrowspar.md) — The Ossuin funerary order: keepers of the descent, the wax, and the Long Stair.
+
+## Novels
+
+Actual play at the table, retold as fiction. Each protagonist (or party) gets
+its own book under `novels/`; chapters follow the campaign journal — one play
+session per chapter — rendered in a pinned authorial style via the
+[mythras-gm](https://github.com/fourth-wall-gaming/mythras-gm) novelization
+workflow.
+
+- **[The Veilwrack: The Stilling](novels/vorrh/vorrh.pdf)** — Vorrh's run,
+  in the style of Michael Moorcock. Chapter 1,
+  [*The Gold Below*](novels/vorrh/chapters/01-the-gold-below.md): an exiled
+  Ossuin death-diver takes a survey contract on a dying windlane, returns a
+  ring to a silent lamp-tender, and performs his brother's funeral at the
+  skim of the Undermist — where the dead air answers back.
 
 ## Loading this campaign
 
