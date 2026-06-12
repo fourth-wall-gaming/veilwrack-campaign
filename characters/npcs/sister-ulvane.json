@@ -1,0 +1,169 @@
+{
+  "id": "myth-char-19383cc4f0da",
+  "name": "Sister Ulvane",
+  "type": "npc",
+  "status": "active",
+  "description": "Stairwarden of the Long Stair; the Synod's pragmatic edge.",
+  "narrative": "Ossuin, one name, given at her first descent forty years ago. Ulvane has been deeper than anyone living and does not talk about it - but she has heard the nursery lights sing, and unlike the Synod she thinks the living should be told before the wax runs out. VOICE: short sentences, long silences, no metaphors (Ossuin are never being metaphorical). GM ARC: the door into the Deepway. She will defy the Synod exactly once, for people who have carried a body down properly. The un-buried dead crisis is her breaking point.",
+  "characteristics": {
+    "STR": 14,
+    "CON": 16,
+    "DEX": 11,
+    "SIZ": 14,
+    "INT": 13,
+    "POW": 17,
+    "CHA": 10
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d2",
+    "experience_modifier": 0,
+    "healing_rate": 3,
+    "initiative_bonus": 12,
+    "luck_points": 3,
+    "magic_points": 17,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 25,
+    "Boating": 30,
+    "Brawn": 28,
+    "Conceal": 28,
+    "Dance": 21,
+    "Deceit": 23,
+    "Drive": 28,
+    "Endurance": 85,
+    "Evade": 22,
+    "First Aid": 24,
+    "Influence": 20,
+    "Insight": 30,
+    "Locale": 26,
+    "Perception": 30,
+    "Ride": 28,
+    "Sing": 27,
+    "Stealth": 24,
+    "Unarmed": 25,
+    "Willpower": 85,
+    "Flight": 25,
+    "Customs": 66,
+    "Native Tongue": 63,
+    "Lore (the descent)": 80,
+    "Survival": 70
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 4,
+      "hp": 8,
+      "current_hp": 8
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 3,
+      "hp": 6,
+      "current_hp": 6
+    }
+  ],
+  "equipment": [
+    "descent-harness",
+    "wax-knife",
+    "the ninth bell"
+  ],
+  "passions": {
+    "Duty: the dead go down, all of them, always": 82,
+    "Loyalty to my stair-cohort": 60
+  },
+  "combat_styles": {
+    "Stair Warden": 60
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 17,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [
+    "myth-faction-9daff6cde1c9"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:56"
+}

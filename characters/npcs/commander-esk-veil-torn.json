@@ -1,0 +1,169 @@
+{
+  "id": "myth-char-090b0e0c6b34",
+  "name": "Commander Esk Veil-Torn",
+  "type": "npc",
+  "status": "active",
+  "description": "Warden Company-Commander of the Lanternfall draft; the PCs' patron.",
+  "narrative": "Vael, deed-name earned at Greywake in 995 - she went into the Stilling after her wing-sister and came out alone, torn, carrying the body anyway. Esk commands the Lanternfall draft because no one else would take a dying lane. VOICE: economical, fair, allergic to speeches. She gives the PCs real autonomy and honest accounting. GM USE: patron, not quest dispenser - she tells the company what the Wardens know (including, eventually, the Acceleration Map) and asks what they intend. Her creed passion is the campaign's moral baseline; if the finale demands a price, she volunteers first.",
+  "characteristics": {
+    "STR": 14,
+    "CON": 14,
+    "DEX": 15,
+    "SIZ": 11,
+    "INT": 14,
+    "POW": 13,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 2,
+    "healing_rate": 3,
+    "initiative_bonus": 14,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 29,
+    "Boating": 28,
+    "Brawn": 25,
+    "Conceal": 28,
+    "Dance": 29,
+    "Deceit": 28,
+    "Drive": 28,
+    "Endurance": 75,
+    "Evade": 30,
+    "First Aid": 29,
+    "Influence": 65,
+    "Insight": 27,
+    "Locale": 28,
+    "Perception": 70,
+    "Ride": 28,
+    "Sing": 27,
+    "Stealth": 29,
+    "Unarmed": 29,
+    "Willpower": 26,
+    "Flight": 88,
+    "Customs": 68,
+    "Native Tongue": 68,
+    "Navigation": 80
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 4,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 3,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    "Warden lance (storm-iron head, heirloom)",
+    "rescue tethers",
+    "the draft orders"
+  ],
+  "passions": {
+    "Creed: no one falls": 80,
+    "Loyalty to my company": 70,
+    "Fear: the Acceleration Map is right": 55
+  },
+  "combat_styles": {
+    "Warden Skirmisher": 82
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 13,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [
+    "myth-faction-e44c881ec80e"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:57"
+}

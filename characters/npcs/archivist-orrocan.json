@@ -1,0 +1,165 @@
+{
+  "id": "myth-char-b66122db0da5",
+  "name": "Archivist Orrocan",
+  "type": "npc",
+  "status": "active",
+  "description": "High Quill of the deep stacks; terrified custodian of the self-filling shelves.",
+  "narrative": "Roak, old, precise, frightened. Since the deep-stack fire last Fogs, Orrocan has known the worst thing an archivist can know: nothing was taken, but something has been ADDED, and the hand is not one he can identify. He suppresses the PCs' access because procedure is the only floor he has left. GM ARC: he WANTS to be forced - give the PCs a way to compel him that lets him keep his oath, and he becomes the best ally in the campaign. Quillate disposition: starts Obstructive; moves on this one man.",
+  "characteristics": {
+    "STR": 8,
+    "CON": 9,
+    "DEX": 13,
+    "SIZ": 10,
+    "INT": 17,
+    "POW": 12,
+    "CHA": 11
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 21,
+    "Boating": 17,
+    "Brawn": 18,
+    "Conceal": 25,
+    "Dance": 24,
+    "Deceit": 28,
+    "Drive": 25,
+    "Endurance": 18,
+    "Evade": 26,
+    "First Aid": 30,
+    "Influence": 22,
+    "Insight": 60,
+    "Locale": 34,
+    "Perception": 70,
+    "Ride": 25,
+    "Sing": 23,
+    "Stealth": 30,
+    "Unarmed": 21,
+    "Willpower": 55,
+    "Flight": 21,
+    "Customs": 74,
+    "Native Tongue": 68,
+    "Lore (deep stacks)": 88
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 3,
+      "current_hp": 3
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 3,
+      "current_hp": 3
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    }
+  ],
+  "equipment": [
+    "stack-keys",
+    "the burned-wing ledger nothing is missing from"
+  ],
+  "passions": {
+    "Duty: the completeness of the Record": 75,
+    "Fear: what has been added to the stacks": 65
+  },
+  "combat_styles": {},
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 2,
+  "magic_current": 12,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [
+    "myth-faction-0e3bbc3af445"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:56"
+}

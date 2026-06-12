@@ -1,0 +1,168 @@
+{
+  "id": "myth-char-465906c7a38c",
+  "name": "Quiet Plume Avess",
+  "type": "npc",
+  "status": "active",
+  "description": "Senior Crown Agent; the courteous face of the archive suppression.",
+  "narrative": "Roak, Recensor's line, sixty years in the Crown's service. Avess is not a thug; she is an editor. Her weapons are confiscation, charter revocation, the arrest of the PCs' allies, and the offer - always sincere, always poisoned - of legitimacy in exchange for silence. VOICE: tired courtesy; she apologizes for inconveniences she has caused on purpose. SECRET: she has read enough of what she suppresses to know the truth about the Stillings, and she is increasingly aware she is protecting the thing that will kill her grandchildren. GM ARC: convertible - at a price. Her passion 'Protect my grandchildren's sky' beats her duty passion in a fair contest; the PCs' job is to force that contest in front of her.",
+  "characteristics": {
+    "STR": 10,
+    "CON": 11,
+    "DEX": 14,
+    "SIZ": 10,
+    "INT": 17,
+    "POW": 14,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 2,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 3,
+    "magic_points": 14,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 24,
+    "Boating": 21,
+    "Brawn": 20,
+    "Conceal": 28,
+    "Dance": 28,
+    "Deceit": 70,
+    "Drive": 28,
+    "Endurance": 22,
+    "Evade": 28,
+    "First Aid": 31,
+    "Influence": 75,
+    "Insight": 80,
+    "Locale": 34,
+    "Perception": 65,
+    "Ride": 28,
+    "Sing": 28,
+    "Stealth": 31,
+    "Unarmed": 24,
+    "Willpower": 28,
+    "Flight": 24,
+    "Customs": 74,
+    "Native Tongue": 71,
+    "Customs (Crown law)": 80
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 0,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    "writ of the Spirarch's Shadow",
+    "sealed confiscation orders",
+    "thin steel stylus-knife (heirloom)"
+  ],
+  "passions": {
+    "Duty: the completeness and quiet of the Record": 72,
+    "Protect my grandchildren's sky": 58
+  },
+  "combat_styles": {
+    "Quiet Blade": 55
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 14,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [
+    "myth-faction-ecf80a4d4291"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:55"
+}

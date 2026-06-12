@@ -1,0 +1,165 @@
+{
+  "id": "myth-char-f69418c32f0a",
+  "name": "Hssh",
+  "type": "npc",
+  "status": "active",
+  "description": "Sotto Voce of the Choir; the faction of the cult that wants to help.",
+  "narrative": "Ossuin, age unguessable, voice a whisper by choice and lately less by choice. Hssh has walked Stilling edges for thirty years and knows their craft better than any Warden analyst. When the Sotto Voce learns what the Unsung are, the Choir splits - and Hssh leads the faction that chooses the world. GM ARC: ally from Act 3 if treated with respect earlier; the source for Stilling survival craft the PCs cannot learn elsewhere. COUNTERPART: the other Choir faction's true believers decide hatching a new Worldlung would undo the holy quiet, and work sincerely toward the world's death. Killing sad, sincere pilgrims should feel terrible; make Hssh the reason it does.",
+  "characteristics": {
+    "STR": 9,
+    "CON": 12,
+    "DEX": 13,
+    "SIZ": 9,
+    "INT": 15,
+    "POW": 18,
+    "CHA": 16
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 2,
+    "healing_rate": 2,
+    "initiative_bonus": 14,
+    "luck_points": 3,
+    "magic_points": 18,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 22,
+    "Boating": 21,
+    "Brawn": 18,
+    "Conceal": 31,
+    "Dance": 29,
+    "Deceit": 31,
+    "Drive": 31,
+    "Endurance": 24,
+    "Evade": 26,
+    "First Aid": 28,
+    "Influence": 32,
+    "Insight": 75,
+    "Locale": 30,
+    "Perception": 33,
+    "Ride": 31,
+    "Sing": 34,
+    "Stealth": 70,
+    "Unarmed": 22,
+    "Willpower": 90,
+    "Flight": 22,
+    "Customs": 70,
+    "Native Tongue": 71,
+    "Lore (Stilling-craft)": 85
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 0,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    "a wick that burns blue",
+    "knotted silence-cord"
+  ],
+  "passions": {
+    "Yearning: to hear the sky whole again": 75,
+    "Protect the Quieted - they are still people": 70
+  },
+  "combat_styles": {},
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 3,
+  "magic_current": 18,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [
+    "myth-faction-42b455eaf8a4"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:56"
+}

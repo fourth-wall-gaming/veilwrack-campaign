@@ -9,10 +9,10 @@ campaign format (v1.0).
 | Contents | Count |
 |---|---|
 | Lore entries | 46 |
-| Characters | 2 (PCs: Kithrel of the Moult) |
+| Characters | 10 (PCs: Kithrel of the Moult) |
 | Creature templates | 5 |
 | Locations | 4 |
-| Factions | 5 |
+| Factions | 7 |
 | Encounters | 1 |
 | Journal events | 3 |
 

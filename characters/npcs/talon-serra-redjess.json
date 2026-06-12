@@ -1,0 +1,170 @@
+{
+  "id": "myth-char-5abdd75f4427",
+  "name": "Talon Serra Redjess",
+  "type": "npc",
+  "status": "active",
+  "description": "Lanhawk Talon-captain of the Redjess clutch; the campaign's recurring corsair.",
+  "narrative": "Vael, mid-thirties, a deed-name she will not explain. Her home spire was stripped to a husk by Combine crews under a lawful Crown charter; she watched it go down through the Undermist with her mother's tether still knotted to the dock. She holds a grudge like an heirloom and a genuine grievance, and she has decided the lawful world owes her a living. VOICE: courteous before violence, never after. GM ARC: fight her twice, bargain with her once, and keep her alive - by Act 4, when the lanes start dying under everyone equally, she is the ally nobody wants and everybody needs. She honors shrine-ground, the bier-right, and ransom custom without exception. LEVERAGE: the Combine charter that doomed her spire is in the Quillate's deep stacks, and the PCs can find it.",
+  "characteristics": {
+    "STR": 13,
+    "CON": 12,
+    "DEX": 17,
+    "SIZ": 9,
+    "INT": 14,
+    "POW": 11,
+    "CHA": 15
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 2,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 2,
+    "magic_points": 11,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 30,
+    "Boating": 25,
+    "Brawn": 22,
+    "Conceal": 28,
+    "Dance": 32,
+    "Deceit": 60,
+    "Drive": 28,
+    "Endurance": 24,
+    "Evade": 34,
+    "First Aid": 31,
+    "Influence": 55,
+    "Insight": 25,
+    "Locale": 28,
+    "Perception": 65,
+    "Ride": 28,
+    "Sing": 26,
+    "Stealth": 31,
+    "Unarmed": 30,
+    "Willpower": 22,
+    "Flight": 85,
+    "Customs": 68,
+    "Native Tongue": 69,
+    "Navigation": 70
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 3,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 2,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    "lacquered bone saber",
+    "barbed boarding-hooks",
+    "wing-knife",
+    "ransom ledger"
+  ],
+  "passions": {
+    "Hate the Marrower Combine": 78,
+    "Loyalty to my clutch": 65,
+    "Yearning: make the lawful world pay what it owes": 70
+  },
+  "combat_styles": {
+    "Stoopwing Corsair": 78
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 2,
+  "magic_current": 11,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [
+    "myth-faction-863dfd0fba02"
+  ],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:33"
+}

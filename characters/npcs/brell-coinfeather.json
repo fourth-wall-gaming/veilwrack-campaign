@@ -1,0 +1,167 @@
+{
+  "id": "myth-char-7a333939b3c5",
+  "name": "Brell Coinfeather",
+  "type": "npc",
+  "status": "active",
+  "description": "Roostless fixer and information broker; insurance is her religion.",
+  "narrative": "Spindles-born, two-part name, which by Spindles reckoning means she is honest about what she is. Brell brokers everything: passage, papers, silence, and - crucially - she holds the insurance copy of the Marrower Combine's real sink-rate numbers for Hollow Vesse. She does not know yet what they are worth. GM ARC: the Combine's endgame breaks open when her copy goes public at exactly the right moment; until then every faction in the campaign has a reason to buy, befriend, or bury her. She survives by being more useful alive to everyone. Rumor 4 (the commissioned glider) is true: she is planning her own exit.",
+  "characteristics": {
+    "STR": 10,
+    "CON": 11,
+    "DEX": 15,
+    "SIZ": 9,
+    "INT": 16,
+    "POW": 12,
+    "CHA": 17
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "-1d2",
+    "experience_modifier": 2,
+    "healing_rate": 2,
+    "initiative_bonus": 15,
+    "luck_points": 2,
+    "magic_points": 12,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 25,
+    "Boating": 21,
+    "Brawn": 19,
+    "Conceal": 27,
+    "Dance": 32,
+    "Deceit": 75,
+    "Drive": 27,
+    "Endurance": 22,
+    "Evade": 30,
+    "First Aid": 31,
+    "Influence": 34,
+    "Insight": 70,
+    "Locale": 32,
+    "Perception": 28,
+    "Ride": 27,
+    "Sing": 29,
+    "Stealth": 31,
+    "Unarmed": 25,
+    "Willpower": 24,
+    "Flight": 60,
+    "Customs": 72,
+    "Native Tongue": 73,
+    "Commerce": 85,
+    "Streetwise": 80
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 3,
+      "current_hp": 3
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 3,
+      "current_hp": 3
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    }
+  ],
+  "equipment": [
+    "a glider built for two with sealed cargo-space and no colors",
+    "lane-favor chits (a fat ring of them)",
+    "the insurance copies"
+  ],
+  "passions": {
+    "Yearning: a roost of my own, deeds and all": 70,
+    "Creed: never hold the original, always hold a copy": 65
+  },
+  "combat_styles": {
+    "Knife Economy": 50
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 2,
+  "magic_current": 12,
+  "experience_rolls": 0,
+  "location": null,
+  "factions": [],
+  "from_template": null,
+  "created_at": "2026-06-12T04:22:56"
+}
