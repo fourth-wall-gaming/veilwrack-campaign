@@ -3,8 +3,8 @@
   "name": "The Hushed Lampwright",
   "type": "npc",
   "status": "active",
-  "description": "An Alar emptied by a Stilling: silent, grey-rooted feathers, cannot fly, extends 3m of dead air. Quieting Grip on Grip effect: opposed Endurance vs 60 or +1 Fatigue per round held. Immune to exertion Fatigue and asphyxiation. Death-burst: 5m Endurance roll or Winded.",
-  "narrative": null,
+  "description": "Tilve Wickmend - Vael lamp-tender of Lanternfall's western face, nine years on the lamps; betrothed of Hollm, the Deepway diver lost below the skim. Went down past the root-line on a tether, came up silent, and has not spoken or written since. Still lights every lamp, on schedule.",
+  "narrative": "GM: Tilve Wickmend is the campaign's first on-screen Quieting-in-progress, and the keeper of Vorrh's debt - she was never told the truth about Hollm's death; the Synod's record says 'carried down, complete, sealed.' Vorrh carries Hollm's spliced sinew betrothal ring (with its finger-bone, wrapped in cold-wax). WHAT HAPPENED: checking the lowest lamp-ring she found the skim risen ~200m above chart and a still pocket forming against the spire's western root - and she heard, faintly, what Vorrh heard on his last sanctioned dive. Forty minutes inside the quiet edge began her Quieting; it is EARLY and arrestable - the rules question of the season is whether truth, grief named aloud, and living voices can re-anchor a person sliding into silence (treat as opposed Willpower aided by genuine human connection; the ring is a +20 anchor or a push, depending entirely on HOW the truth is given). Her lamps at the lowest ring burn faintly blue. She mends wicks others throw away. TIMELINE: untreated, she stops tending the upper rings within two nine-days, then walks down. PLAYER-FACING NAME: Tilve Wickmend; the draft has started calling her 'the hushed lampwright' when she can't hear, which is always, which is the problem.",
   "characteristics": {
     "STR": 9,
     "CON": 13,

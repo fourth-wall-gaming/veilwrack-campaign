@@ -9,12 +9,12 @@ campaign format (v1.0).
 | Contents | Count |
 |---|---|
 | Lore entries | 46 |
-| Characters | 10 (PCs: Kithrel of the Moult) |
+| Characters | 11 (PCs: Kithrel of the Moult, Vorrh) |
 | Creature templates | 5 |
 | Locations | 4 |
 | Factions | 7 |
 | Encounters | 1 |
-| Journal events | 3 |
+| Journal events | 12 |
 
 ## Repository layout
 
@@ -125,9 +125,10 @@ The canonical full-prose worldbook sources live in [`setting/`](setting/) — se
 
 **Player characters**
 - [Kithrel of the Moult](characters/pcs/kithrel-of-the-moult.json) — Vael courier turned Gale Warden; the fastest survey-flier in the company
+- [Vorrh](characters/pcs/vorrh.json) — Ossuin death-diver, cast out of the Deepway; an outcast who watches, asks unwelcome questions, and dives where no one is permitted.
 
 **NPCs**
-- [The Hushed Lampwright](characters/npcs/the-hushed-lampwright.json) — An Alar emptied by a Stilling: silent, grey-rooted feathers, cannot fly, extends 3m of dead air. Quieting Grip on Grip effect: opposed Endurance vs 60 or +1 Fatigue per round held. Immune to exertion Fatigue and asphyxiation. Death-burst: 5m Endurance roll or Winded.
+- [The Hushed Lampwright](characters/npcs/the-hushed-lampwright.json) — Tilve Wickmend - Vael lamp-tender of Lanternfall's western face, nine years on the lamps; betrothed of Hollm, the Deepway diver lost below the skim. Went down past the root-line on a tether, came up silent, and has not spoken or written since. Still lights every lamp, on schedule.
 - [Talon Serra Redjess](characters/npcs/talon-serra-redjess.json) — Lanhawk Talon-captain of the Redjess clutch; the campaign's recurring corsair.
 - [Quiet Plume Avess](characters/npcs/quiet-plume-avess.json) — Senior Crown Agent; the courteous face of the archive suppression.
 - [Recensor Velute](characters/npcs/recensor-velute.json) — The Spirarchy's keeper of the founding lie; author of the cruelest clean solution.
@@ -149,18 +150,9 @@ The canonical full-prose worldbook sources live in [`setting/`](setting/) — se
 
 ## Novels
 
-Actual play at the table, retold as fiction. Each protagonist (or party) gets
-its own book under `novels/`; chapters follow the campaign journal — one play
-session per chapter — rendered in a pinned authorial style via the
-[mythras-gm](https://github.com/fourth-wall-gaming/mythras-gm) novelization
-workflow.
+Actual play at the table, retold as fiction — one play session per chapter, drafted from the campaign journal via the mythras-gm novelization workflow.
 
-- **[The Veilwrack: The Stilling](novels/vorrh/vorrh.pdf)** — Vorrh's run,
-  in the style of Michael Moorcock. Chapter 1,
-  [*The Gold Below*](novels/vorrh/chapters/01-the-gold-below.md): an exiled
-  Ossuin death-diver takes a survey contract on a dying windlane, returns a
-  ring to a silent lamp-tender, and performs his brother's funeral at the
-  skim of the Undermist — where the dead air answers back.
+- [The Veilwrack: The Stilling](novels/vorrh/vorrh.pdf) — Vorrh's run, in the style of Moorcock
 
 ## Loading this campaign
 

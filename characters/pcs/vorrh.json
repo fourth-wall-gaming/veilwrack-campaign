@@ -1,0 +1,176 @@
+{
+  "id": "myth-char-fa3f498d958e",
+  "name": "Vorrh",
+  "type": "pc",
+  "status": "active",
+  "description": "Ossuin death-diver, cast out of the Deepway; an outcast who watches, asks unwelcome questions, and dives where no one is permitted.",
+  "narrative": "VORRH (the sound the Undermist makes against a slow wing). Ossuin, named at his first descent - he went down too steeply, and when the stairwardens called it recklessness he said he was listening. Trained as a Death-Diver at Carrowspar: breath-bottles, cold-wax, the descent-chants, the only legal Undermist training in the sky. HOLLM: his stair-cohort brother, named at the same first descent ('the held breath'). Hollm was betrothed to a lamp-tender of Lanternfall Spire, the wedding set for the Wet. On Vorrh's last sanctioned dive a singing came up through the gold that was not the cohort's chant; Vorrh held the count, but Hollm turned toward it, folded his wings, went below the skim, and did not come up. The Synod's record of that day reads 'Carried down, complete, sealed' - a proper funeral for a death no one witnessed, of a body no one carried. Vorrh asked how the record could be complete when he was there and it wasn't. He was ordered to unhear the singing. He asked again. That was the exile: the Deepway cannot take his name back, but they will no longer say it. KEEPSAKE - HOLLM'S RING: months later, alone and unsanctioned, Vorrh found Hollm snagged in reef-bone at the skim, one arm raised toward the surface, the spliced sinew betrothal ring (broken once, mended toward her) still on his finger. Vorrh carries the ring and its finger-bone wrapped in cold-wax. The unfulfilled need is not his own: somewhere on Lanternfall is a lamp-tender who was handed a sealed lie instead of a husband and was never told the truth. That is why, of all the dying lanes in the sky, Vorrh answered the posting at Lanternfall. GM NOTE: the lamp-tender is an undefined NPC - name and circumstances open; the Deepway's false record of Hollm's death is a live thread into the Synod's secrets (what sang, and why the Synod papers over skim-losses). UPBRINGING: What My Priest Told Me (Ossuin catechism) - he believed it all once; the exile is partly about what happens to that belief. PASSIONS: Yearning 59 (to hear again what he heard below); Duty 49 (the dead go down, all of them, even his); Fear 39 (that the dark is answering back). Kindred bonus: +5 Endurance. ARRIVING: Lanternfall Spire, High Gales 1001 A.S., seeking hire with Commander Esk's Warden draft.",
+  "characteristics": {
+    "STR": 13,
+    "CON": 12,
+    "DEX": 16,
+    "SIZ": 12,
+    "INT": 16,
+    "POW": 10,
+    "CHA": 9
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+0",
+    "experience_modifier": 0,
+    "healing_rate": 2,
+    "initiative_bonus": 16,
+    "luck_points": 2,
+    "magic_points": 10,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 29,
+    "Boating": 25,
+    "Brawn": 25,
+    "Conceal": 26,
+    "Dance": 25,
+    "Deceit": 25,
+    "Drive": 26,
+    "Endurance": 59,
+    "Evade": 32,
+    "First Aid": 32,
+    "Influence": 18,
+    "Insight": 46,
+    "Locale": 42,
+    "Perception": 51,
+    "Ride": 26,
+    "Sing": 29,
+    "Stealth": 42,
+    "Unarmed": 29,
+    "Willpower": 50,
+    "Flight": 74,
+    "Customs": 72,
+    "Native Tongue": 65,
+    "Mist-Rites": 56,
+    "Lore (the Undermist)": 47,
+    "Survival": 36,
+    "Lore (Funerary Rites)": 45,
+    "Healing": 34
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 0,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 2,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 0,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 1,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    "wax-knife",
+    "diving hook",
+    "descent-harness",
+    "breath-bottles (2)",
+    "cold-wax sealing kit",
+    "mist-salt crusted diving leathers",
+    "three mist-pearls (unsold)",
+    "the Lamplighter's ring (keepsake)"
+  ],
+  "passions": {
+    "Yearning: to hear again what I heard below": 59,
+    "Duty: the dead go down - all of them, even mine": 49,
+    "Fear: that the dark is answering back": 39
+  },
+  "combat_styles": {
+    "Wax-Knife & Diving Hook": 44
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Fresh",
+  "luck_current": 0,
+  "magic_current": 10,
+  "experience_rolls": 0,
+  "location": "myth-loc-f3c849a67a27",
+  "factions": [],
+  "from_template": null,
+  "created_at": "2026-06-12T04:43:10"
+}
