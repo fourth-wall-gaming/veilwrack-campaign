@@ -1,4 +1,4 @@
-# Chapter 3 — The Finger of Silence
+# Chapter 5 — The Finger of Silence
 
 <!-- events: myth-event-bb61c954e8e4 -->
 
@@ -32,25 +32,25 @@ The finger withdrew, half a meter to the minute, and declined to be questioned, 
 
 ---
 
-Three hundred meters above, on the survey stage, Kithrel of the Moult had a different problem, and the problem weighed eighteen stone and held the haul-crank.
+The count did not come back.
 
-The count had never stopped. That was the thing she could not make the drum-master understand. Her count had gone down the tether all morning, *and one, and one,* unbroken — she had kept counts through lane-storms and through a wing-mate's death-scream and she had not broken this one — but for the better part of an hour the line had returned nothing. No pulse, no diver's-echo. The tether ran taut into the brass haze and somewhere down its length her count was going into a place that ate it.
+That was the arithmetic of his situation, and he did the sum hanging east of the withdrawing finger with his voice gone and his luck spent and four hundred meters of sky between himself and the stage. The band had lain across his tether-line, and whatever it had eaten of Kithrel's count it had not given back: the line under his hand stayed mute, no pulse, no metronome, no *and one, and one.* He was a Deepway diver, and a Deepway diver without a count is a man told, in the politest possible terms, that he is alone.
 
-"Dead line means dead diver," the drum-master said, not unkindly. He was Roak, Lanternfall-born, and he had hauled bodies before. His hands were already set. "We bring him up while there's something to bring."
+The doctrine for a dead line is the doctrine he had been raised on: hold position, conserve, trust the crew to read the silence and haul. But the haul would come up through the band — through the finger, through the working silence — and every instinct in him, catechism and survey-craft agreeing for once like estranged brothers, said *do not be on that line when it crosses.* So he did the thing his order calls apostasy and the Wardens call Tuesday.
 
-"The line's not dead, it's *eaten,* and there's a difference." She put her hand flat on the crank, which between a Vael survey-flier and a Roak drum-master was nearly a declaration of war. The lane-tokens of her dead flight clicked in her primaries; she was aware of them; she had braided them there to be aware of them at moments precisely like this one. "I've flown survey on every Stilling since Greywake. The dead patches don't drift, everyone knows the dead patches don't drift — and that one *moved between my fixes.* Dead air that holds still is dead air. Dead air that *moves* is doing something." She heard the word leave her before she could weigh it, and let it stand. "It's *working.* And you do not haul a tether up through a thing that is working, because then I am explaining to Commander Esk Veil-Torn how we cheese-wired our own diver through the middle of it."
+He cast off the tether-pulse, set his wings, and flew.
 
-The drum-master looked at the line. The line, taut and silent, declined to vote.
+It nearly killed him. He would write it smaller than that for the report, and the report would still be the most alarming document Esk Veil-Torn read that season, but the truth was the truth: he was wrung dry, grief-heavy, climbing dawn-shear with no count to pace him and no luck left to spend, and twice the updraught dropped him and he fell shrieking distance before his wings found purchase in air that consented to be flown. The Undermist turned over below him, gold, patient, risen, and he climbed away from it one ragged wingbeat at a time with his brother's funeral still in his throat, and there was no rhythm to hold to except the one he made himself — and what he made, without deciding to, was the diver's count. *One, and one, and one.* Counting himself up the sky like a man going down it.
 
-"Wait for the band to pass," Kithrel said, quieter. "If it's moving, it's moving for a reason, and reasons end. He's Ossuin. They don't drown easy and they don't panic ever. Keep your hands on the crank if it comforts you — but the first haul is mine to call. That's drawn in the contract."
+He passed the height where the band had been and the world came back on like a lamp — sound and shear and the blessed petty commerce of moving air — and somewhere far above he caught it at last, threadbare with distance: *and one, and one,* faint, furious, unbroken. She had never stopped. All that time he had been deaf in the gold, Kithrel had been counting into the thing that ate it, and something in his chest went loose at the ordinariness of the sound, which he was wise enough to recognize as the closest thing to rescue that morning was going to offer him.
 
-It was not, in fact, drawn in the contract. It would be in the next one.
+He hooked an arm at last through the corroded mounting of the lowest ring's last orange lamp and hung, breathing, alive, solvent in nothing but information. Kithrel stooped down to him there, having left the stage the moment he cleared the haze, and looked him over the way she had looked him over at dawn, survey-fashion, missing nothing.
 
----
+"Drum-master wanted to haul you up through it," she said. "Dead line means dead diver, he says. I told him dead air that moves is doing something, and you don't crank a tether through a thing that's working." A click of lane-tokens. "You were off my line, Deepway. Don't make a habit of it."
 
-The tip of the finger passed the lamp-ring bearing, and the world behind it came back on like a lamp itself — sound and shear and the blessed petty commerce of moving air. Vorrh rounded the place where the silence had been, found the tether-line live again under his hand — *and one, and one,* faint, furious, unbroken; she had never stopped, all that time he had been deaf in the gold she had been counting into the thing that ate it — and something in his chest went loose at the ordinariness of it, which he was wise enough to recognize as the closest thing to rescue that morning was going to offer him.
+"The line was off me," Vorrh rasped. "I'll say so in the report."
 
-He set his wings and climbed, clean and slow, out of the brass and into the day, to the last orange lamp of the lowest ring, where he hooked an arm through corroded metal and hung, breathing, alive, solvent in nothing but information.
+"You'll say everything in the report. She'll see to that." And Kithrel flew up ahead of him to call the stage off its alarm, and left him hanging on the lamp his brother's betrothed would light that evening, on schedule, to the minute.
 
 And what information. He assembled it on the slate while his arms shook, in the recording hand, for Esk, who paid for measurements: *Pocket top 280, not 300. Skim risen to 400, not 600. The edge is a tide and will not chart. And the silence reaches toward sustained sound — deliberately, along a bearing, to a place — and withdraws when the sound is done.*
 

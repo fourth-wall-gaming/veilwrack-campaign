@@ -1,4 +1,4 @@
-# Chapter 1 — The Gold Below
+# Chapter 3 — The Gold Below
 
 <!-- events: myth-event-257451bd826c -->
 
@@ -8,11 +8,11 @@ Below him the Undermist lay like a sea of molten gold, lambent, depthless, beaut
 
 The drum-master checked his tether — spliced sinew, cold-waxed, rated for a body and a half, which was the Deepway's old joke and not a joke at all. Above, on the survey perch, Kithrel of the Moult settled into the count-keeper's cradle with her dead flight's lane-tokens braided into her primaries, clicking faintly, a sound like small bones agreeing with each other.
 
-"Contract's the edge," she called down. "Chart the pocket, sound the margins, come back. Esk's words. The commander pays for measurements, diver, not for heroics."
+"Survey first," she called down — Esk's first condition, worn smooth already by one morning's handling. "Every measurement on the contract before you spend a breath on the dead. You keep them in that order and I keep the count."
 
-"I have never been paid for either," Vorrh said.
+"I remember the order."
 
-"Then you'll feel right at home." She began the count, slow and metronomic, the diver-tender's pulse that would follow him down the tether like a second heartbeat: *one, and one, and one.*
+"Remember the other thing." *Nobody goes off my line.* She did not say it again; she let the morning say it for her, and began the count, slow and metronomic, the diver-tender's pulse that would follow him down the tether like a second heartbeat: *one, and one, and one.*
 
 He stepped off the stage and let the world take him.
 

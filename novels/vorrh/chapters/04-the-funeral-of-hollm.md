@@ -1,4 +1,4 @@
-# Chapter 2 — The Funeral of Hollm
+# Chapter 4 — The Funeral of Hollm
 
 <!-- events: myth-event-63f147703366 -->
 
@@ -10,7 +10,7 @@ He found the place by memory. Reef-bone to the north, the drowned lamp-ring west
 
 Hollm. Named at their shared first descent: *the held breath.* Stair-cohort, wing-brother, betrothed of a lamp-tender of Lanternfall whose wedding had been set for the Wet. The Synod's record of his death read *Carried down, complete, sealed* — a proper funeral for a death no one had witnessed, of a body no one had carried. Vorrh had asked how a record could be complete when he had been there and it wasn't. He had asked twice. The asking was his whole exile.
 
-From the cold-wax wrapping at his breast he took the ring — spliced sinew, broken once, mended toward her — and the small waxed bone that wore it, on which he had written, in the recording hand, two words: *witnessed: Vorrh.*
+From the cold-wax wrapping at his breast he took the small waxed bone — lighter now, since dawn, by the weight of a ring; the splice rode the lowest ring of Lanternfall in a lamp-tender's keeping, where it had always belonged — on which he had written, in the recording hand, two words: *witnessed: Vorrh.*
 
 "By the Stair and the wax and the long way down," he said, "I will do this by the book they cast me out of. Let them say the form was wrong. Let them say the diver was wrong. They will not say it was not done."
 
@@ -44,7 +44,7 @@ No tether-pulse. No metronome. Nothing above him and nothing below him and the g
 
 He did not give it the form. Some stubborn marrow-deep thing — the same thing that had asked the Synod its question twice — refused to feed one more syllable of the Deepway's liturgy into whatever was down here practising it.
 
-He finished the funeral in his own words. They were not good words. He said that Hollm had been the better diver and the worse cardplayer; that he had folded his wings toward a singing no one else had been permitted to hear, and that whatever had called him was a thief, whatever it was, however beautiful; that a lamp-tender on Lanternfall had been handed a sealed lie instead of a husband, and that this, of everything, remained unforgiven. He said the dead go down, all of them, even his. He unwound the cold-wax, and kept the ring, because the ring was mended toward *her* and was not his to give the dark.
+He finished the funeral in his own words. They were not good words. He said that Hollm had been the better diver and the worse cardplayer; that he had folded his wings toward a singing no one else had been permitted to hear, and that whatever had called him was a thief, whatever it was, however beautiful; that a lamp-tender on Lanternfall had been handed a sealed lie instead of a husband, and that this morning she had taken back the one true thing he'd had to give her, and that the lie, of everything, remained unforgiven. He said the dead go down, all of them, even his. He unwound the cold-wax for the last time.
 
 The bone he gave to the gold.
 

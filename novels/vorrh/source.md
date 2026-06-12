@@ -1638,31 +1638,49 @@ First contact: Kithrel fought a Hushed lampwright at the Lanternfall lane-shrine
 
 Mechanics: Hushed won Grip (Kithrel failed Endurance vs 60, now Winded). Kithrel dealt a minor abdomen wound (2 dmg) past a critical parry. It recognized her: hook for the Hushed-remember thread.
 
-### Event 4 <!-- id: myth-event-257451bd826c, type: skill-roll, at: 2026-06-12T05:25:07.000000000, involves: Vorrh -->
+### Event 4 <!-- id: myth-event-d6ac63bef692, type: scene, at: 2026-06-12T04:40:00.000000000, involves: Commander Esk Veil-Torn, Vorrh, Lanternfall Spire -->
+
+HIRING AND TERMS: At Lanternfall Spire, Commander Esk Veil-Torn took Vorrh into the Warden draft as survey diver and set one standing condition: she is told first, about everything, before anyone else. In the same meeting she shared the plight of Tilve Wickmend, the hushed lampwright of the western face - silent for two years since a tethered dive below the skim, still lighting every lamp on schedule, counting to eighty-one each night on the lowest ring and stopping.
+
+Esk's condition, stated plainly: 'I don't pay for heroics and I don't forgive surprises. Whatever you find down there, I hear it first.' Vorrh accepted. Esk laid out Tilve's case as a commander reporting a casualty still on her roster: who she was, what the dive took from her, the count that never finishes.
+
+### Event 5 <!-- id: myth-event-859ee079d68b, type: scene, at: 2026-06-12T04:52:00.000000000, involves: The Hushed Lampwright, Vorrh, Lanternfall Spire -->
+
+THE RING GIVEN: Vorrh sought out Tilve Wickmend at the western lamp-rings and unwrapped Hollm's cold-wax bundle before her: the spliced sinew betrothal ring, broken once, mended toward her. Tilve said nothing - she has said nothing for two years. She took the ring and kept it. Vorrh kept the waxed finger-bone, marked 'witnessed: Vorrh'. Why: she was handed a sealed record instead of a husband, and Vorrh came to Lanternfall to pay Hollm's debt of truth.
+
+No words were exchanged; none were possible. Vorrh told her whose ring it was and how it was found. Tilve closed her hand around it and returned to her wicks. The transfer of the ring is the first acknowledgment anyone has given her that the Synod's record of Hollm's death is false.
+
+### Event 6 <!-- id: myth-event-e8233a49bd77, type: decision, at: 2026-06-12T05:05:00.000000000, involves: Kithrel of the Moult, Commander Esk Veil-Torn, Vorrh -->
+
+PERMISSION FOR THE RITE: Vorrh returned to Commander Esk and asked leave to perform the descent-rite for Hollm at the skim during the contracted edge survey. Esk agreed under conditions: the survey contract comes first and is completed in full; everything that happens below is reported to her, first, withholding nothing; he dives on Warden tether discipline. She assigned Kithrel of the Moult as count-keeper and survey support for the dive.
+
+Esk's terms restated her standing rule - told first, about everything. Vorrh accepted all three conditions. Kithrel's assignment pairs the draft's best survey-flier with its newest diver.
+
+### Event 7 <!-- id: myth-event-257451bd826c, type: skill-roll, at: 2026-06-12T05:25:07.000000000, involves: Vorrh -->
 
 Dawn dive, edge survey: Flight 66/74 success (clean descent to 280m). Mist-Rites failed twice (69, then Luck Point reroll 87, vs 56) — soundings smear; the still pocket's edge is not fixed, it moves like a tide-line, and early-dying casts all died in the same direction, as if the silence reached toward them. Pocket top measured ~280m, 20m shallower than Esk's charts. Luck: 2 to 1.
 
-### Event 5 <!-- id: myth-event-63f147703366, type: decision, at: 2026-06-12T05:33:50.000000000, involves: The Hushed Lampwright, Vorrh -->
+### Event 8 <!-- id: myth-event-63f147703366, type: decision, at: 2026-06-12T05:33:50.000000000, involves: The Hushed Lampwright, Vorrh -->
 
 THE FUNERAL OF HOLLM: At the skim (risen to 400m), Vorrh attempted the cohort descent-rite alone. By-the-book rite failed twice (Lore Funerary Rites 89/96 vs 45, last Luck spent) — the cohort-form structurally cannot be performed by one voice, proving the Synod's 'complete, sealed' record was always an impossibility. At the third cohort-silence SOMETHING ANSWERED: the western silence leaned in and held the response-gap with perfect rest-length fluency. Vorrh's chant broke (Willpower 80/50 failed); Kithrel's count found to be gone. Vorrh finished the giving in his own words and released Hollm's finger-bone (waxed 'witnessed: Vorrh') into the skim. Luck 0. Now ascending into unknown acoustic conditions.
 
 Key canon: the still pocket responds to sustained sound/ritual with deliberate, fluent timing — not random. Vorrh's private vow: he will finish Hollm's broken diver's count.
 
-### Event 6 <!-- id: myth-event-bb61c954e8e4, type: scene, at: 2026-06-12T05:36:53.000000000, involves: Vorrh -->
+### Event 9 <!-- id: myth-event-bb61c954e8e4, type: scene, at: 2026-06-12T05:36:53.000000000, involves: Vorrh -->
 
 THE ASCENT: Vorrh's tired climb (Flight 98 fail) blundered into a dead band at ~290m — the pocket had extruded across his tether line. He dropped back into live air and traversed east; Perception CRITICAL (roll 01): the dead band is a FINGER ~8m thick extruding from the western pocket, its axis pointing exactly at the patch of skim where he performed Hollm's rite — it reached FOR the rite, along a line, to a place. It was withdrawing at ~0.5m/min when mapped ('done listening'). Kithrel's count never stopped — the band was eating it. Kithrel talked the drum-master out of hauling ('dead-then-moving means working'). Vorrh rounded the finger's tip and climbed clean (Flight 31 success) to the last orange lamp. Findings for Esk: pocket top at 280m not 300; skim risen to 400m not 600; edge is tidal/unfixed; the silence reaches toward sustained sound with deliberate aim.
 
 GM: the finger's withdrawal began after the rite ended — consistent with the pocket 'listening' canon. Vorrh now possesses chart-grade data Esk explicitly contracted for, plus one finding she didn't: it aims.
 
-### Event 7 <!-- id: myth-event-a9e5ea7fc01d, type: decision, at: 2026-06-12T05:38:19.000000000, involves: Vorrh -->
+### Event 10 <!-- id: myth-event-a9e5ea7fc01d, type: decision, at: 2026-06-12T05:38:19.000000000, involves: Vorrh -->
 
 DEBRIEF: Vorrh gave Esk the whole truth — pocket top at 280m not 300; skim risen to 400m not 600; the edge is tidal and cannot be fixed on a chart; the pocket extruded an 8m finger along a precise axis toward his funeral rite and withdrew when the rite ended (~0.5m/min); the silence held the cohort-response gap with fluent timing. He withheld nothing, including that the dive's funeral was his own brother's. 'I tell her the truth — that's why I fly.'
 
-### Event 8 <!-- id: myth-event-74d142c89b82, type: session-end, at: 2026-06-12T05:45:08.000000000, involves: The Hushed Lampwright, Vorrh -->
+### Event 11 <!-- id: myth-event-74d142c89b82, type: session-end, at: 2026-06-12T05:45:08.000000000, involves: The Hushed Lampwright, Vorrh -->
 
 SESSION END — Dawn dive complete. Vorrh performed Hollm's unsanctioned funeral at the skim (bone given to the gold). Survey findings delivered to Esk in full: pocket top 280m, skim risen to 400m, edge tidal/unfixed, pocket responds to sustained ordered sound with deliberate aim. Esk revealed Tilve's count moved from 81 to 82 during the dive — first change in two years — implying a connection between Vorrh's rite below and Tilve's nightly count above. Esk's question hangs unanswered: what happens at 108, and should she hope for it or stop it? Vorrh has 0 Luck, 0 XP rolls, fatigue Fresh (slept). Kithrel offered standing watch — relationship warming. Next scene: Vorrh answers Esk in the chart-room.
 
-### Event 9 <!-- id: myth-event-853923083182, type: gm-note, at: 2026-06-12T05:45:23.000000000, involves: The Hushed Lampwright, Vorrh -->
+### Event 12 <!-- id: myth-event-853923083182, type: gm-note, at: 2026-06-12T05:45:23.000000000, involves: The Hushed Lampwright, Vorrh -->
 
 GM STATE SAVE — Resume point: Esk's chart-room, late afternoon. Esk has asked Vorrh directly: what happens at count 108, and should she hope or post wardens? OPEN THREADS: (1) Vorrh must answer Esk — the Tilve question is now the central narrative hook. (2) Tilve's Quieting: untreated she stops tending upper rings in 2 nine-days then walks down; cure may be completing the count / Hollm's proper carrying-down — but Vorrh just DID carry Hollm down, and the count moved one beat, suggesting the cure is iterative not instant. (3) The pocket AIMS and ANSWERS — it held the cohort-response gap with fluent timing during the rite; this is Act 1 Stilling mystery escalation. (4) Kithrel relationship: warming after the dive; offered unpaid watch; recalibrating Vorrh as honest-not-suspect; the Moult information-trade is still open. (5) Vorrh has 0 Luck Points — vulnerable until next session award. (6) Experience rolls owed for the dive (award at next session start). (7) Humans question from earlier conversation still open — user never chose between adding humans or renaming the Tier 2 header.
 
