@@ -1,0 +1,195 @@
+{
+  "id": "myth-char-89fb97a2c3ca",
+  "name": "Sefa Rocksquill",
+  "type": "pc",
+  "status": "active",
+  "description": "A Vael lance of the Lanternfall Warden draft - hugely built for a kestrel-kin, wingspear and target shield, leather harness. Hits like an Ossuin; constitution of a songbird.",
+  "narrative": "Sefa Rocksquill was born to the Moult but never fit it: too big for the courier-rafts, too slow for the lane-races, a kestrel built like a lanner falcon. The deed-name came young - feathers so heavy-quilled the riggers joked she was part spire-rock - and she carried it to the one place in the sky where heavy is a qualification: the Gale Wardens' lances. She fights with wingspear and shield in the dive-and-pass style of the Lanternfall draft. Her constitution has always been her secret weakness (CON 6, Healing Rate 1): she does not get sick often, but when she is hurt, she stays hurt, and she has learned to fight accordingly - end it fast, never trade blows. She hates the Stilling the way sailors hate the doldrums that starve them: the Moult lost two lanes and a cousin-raft to dead air in her lifetime. The draft is the family the flotilla never quite was.",
+  "characteristics": {
+    "STR": 17,
+    "CON": 6,
+    "SIZ": 15,
+    "DEX": 12,
+    "INT": 11,
+    "POW": 13,
+    "CHA": 14
+  },
+  "attributes": {
+    "action_points": 2,
+    "damage_modifier": "+1d4",
+    "experience_modifier": 2,
+    "healing_rate": 1,
+    "initiative_bonus": 11,
+    "luck_points": 3,
+    "magic_points": 13,
+    "movement": "4m walk / 12m fly"
+  },
+  "skills": {
+    "Athletics": 47,
+    "Boating": 23,
+    "Brawn": 40,
+    "Conceal": 25,
+    "Dance": 26,
+    "Deceit": 25,
+    "Drive": 25,
+    "Endurance": 60,
+    "Evade": 65,
+    "First Aid": 40,
+    "Influence": 40,
+    "Insight": 50,
+    "Locale": 25,
+    "Perception": 50,
+    "Ride": 25,
+    "Sing": 27,
+    "Stealth": 50,
+    "Unarmed": 35,
+    "Willpower": 40,
+    "Flight": 65,
+    "Customs": 62,
+    "Native Tongue": 65,
+    "Streetwise": 50,
+    "Survival": 25,
+    "Lore (Stillings)": 25
+  },
+  "hit_locations": [
+    {
+      "name": "Right Leg",
+      "range": [
+        1,
+        2
+      ],
+      "ap": 1,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Leg",
+      "range": [
+        3,
+        4
+      ],
+      "ap": 1,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Abdomen",
+      "range": [
+        5,
+        7
+      ],
+      "ap": 2,
+      "hp": 6,
+      "current_hp": 6
+    },
+    {
+      "name": "Chest",
+      "range": [
+        8,
+        10
+      ],
+      "ap": 2,
+      "hp": 7,
+      "current_hp": 7
+    },
+    {
+      "name": "Right Wing",
+      "range": [
+        11,
+        12
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    },
+    {
+      "name": "Left Wing",
+      "range": [
+        13,
+        14
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 0
+    },
+    {
+      "name": "Right Arm",
+      "range": [
+        15,
+        16
+      ],
+      "ap": 1,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Left Arm",
+      "range": [
+        17,
+        18
+      ],
+      "ap": 1,
+      "hp": 4,
+      "current_hp": 4
+    },
+    {
+      "name": "Head",
+      "range": [
+        19,
+        20
+      ],
+      "ap": 0,
+      "hp": 5,
+      "current_hp": 5
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Falchion",
+      "damage": "1d6+2",
+      "size": "M"
+    },
+    {
+      "name": "Hatchet",
+      "damage": "1d6+1",
+      "size": "M"
+    },
+    {
+      "name": "Throwing hatchet",
+      "damage": "1d6+1",
+      "size": "M",
+      "notes": "balanced for throwing, range 10/20/30m"
+    },
+    {
+      "name": "Target shield",
+      "damage": "1d3+1",
+      "size": "L"
+    },
+    "Wingspear (racked at the roost-hall)",
+    "Warden flight harness",
+    "leather armor (2pt torso, 1pt limbs)",
+    "survey aneroid",
+    "signal flares x6",
+    "hooded lamp",
+    "rescue line",
+    "rations (3 days)",
+    "quartermaster writ (Warden business, render assistance)"
+  ],
+  "passions": {
+    "Hatred of the Stilling": 67,
+    "Loyalty to the Warden draft": 57
+  },
+  "combat_styles": {
+    "Warden Skirmisher (wingspear, hatchet, target shield)": 70
+  },
+  "spells": null,
+  "extras": null,
+  "fatigue": "Wearied",
+  "luck_current": 0,
+  "magic_current": 13,
+  "experience_rolls": 0,
+  "location": "myth-loc-f3c849a67a27",
+  "factions": [],
+  "from_template": null,
+  "created_at": "2026-06-12T22:05:59"
+}

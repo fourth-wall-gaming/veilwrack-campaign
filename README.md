@@ -9,7 +9,7 @@ campaign format (v1.0).
 | Contents | Count |
 |---|---|
 | Lore entries | 46 |
-| Characters | 11 (PCs: Kithrel of the Moult, Vorrh) |
+| Characters | 12 (PCs: Kithrel of the Moult, Vorrh, Sefa Rocksquill) |
 | Creature templates | 5 |
 | Locations | 4 |
 | Factions | 7 |
@@ -125,6 +125,7 @@ The canonical full-prose worldbook sources live in [`setting/`](setting/) — se
 **Player characters**
 - [Kithrel of the Moult](characters/pcs/kithrel-of-the-moult.json) — Vael courier turned Gale Warden; the fastest survey-flier in the company
 - [Vorrh](characters/pcs/vorrh.json) — Ossuin death-diver, cast out of the Deepway; an outcast who watches, asks unwelcome questions, and dives where no one is permitted.
+- [Sefa Rocksquill](characters/pcs/sefa-rocksquill.json) — Vael lance of the Lanternfall Warden draft; a kestrel-kin built like a lanner falcon who fights dive-and-pass with wingspear and shield — hits like an Ossuin, with the constitution of a songbird.
 
 **NPCs**
 - [The Hushed Lampwright](characters/npcs/the-hushed-lampwright.json) — Tilve Wickmend - Vael lamp-tender of Lanternfall's western face, nine years on the lamps; betrothed of Hollm, the Deepway diver lost below the skim. Went down past the root-line on a tether, came up silent, and has not spoken or written since. Still lights every lamp, on schedule.
