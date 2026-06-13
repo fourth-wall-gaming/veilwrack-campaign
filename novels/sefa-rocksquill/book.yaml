@@ -4,22 +4,22 @@ author: Fourth Wall Gaming
 slug: the-veilwrack-the-stilling
 campaign_id: myth-campaign-ac1041cfb4fb
 style: gamesmaster
-art_style: engraving
+art_style: comic
 status: drafted
 high_water_mark: myth-event-e6c26f2ccc3d
 illustrations:
-  - file: 01-drake-dive.png
+  - file: 01-drake-scaffold.png
     chapter: 1
     after_scene: 0
-    caption: The dive over the lamp-rings
-    prompt_file: 01-drake-dive.txt
+    caption: The drake on the lamp-walk
+    prompt_file: 01-drake-scaffold.txt
   - file: 02-dead-reef-choir.png
     chapter: 1
     after_scene: 2
     caption: The nine singers and the drinking bells
     prompt_file: 02-dead-reef-choir.txt
-  - file: 03-gallery-fire.png
+  - file: 03-vault-challenge.png
     chapter: 1
     after_scene: 7
-    caption: The last supper
-    prompt_file: 03-gallery-fire.txt
+    caption: The challenge from the vault
+    prompt_file: 03-vault-challenge.txt
