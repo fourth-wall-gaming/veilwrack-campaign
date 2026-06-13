@@ -1,31 +1,31 @@
-# Style Card: Moorcock
+# Style Card: Hemingway
 
 ## Sentence rhythm
-Swift, vivid, pulpy momentum -- written hot. Medium sentences that lean
-forward; short ones for shock. Chapters end on reversals or omens.
+Short declarative sentences. Compound sentences joined with "and," rarely
+subordinate clauses. Paragraphs of two to five sentences. Repetition of key
+nouns instead of pronoun variety.
 
 ## Diction
-Lush and baroque for settings and sorcery (chalcedony, lambent, iridescent);
-blunt for violence. Invented proper nouns with apostrophes and grandeur.
-Physical decadence and beauty described without embarrassment.
+Plain Anglo-Saxon vocabulary. Concrete nouns: things you can touch, drink,
+carry. No abstractions unless a character speaks them. Numbers stated plainly.
 
 ## Dialogue
-Theatrical and declarative. Villains articulate philosophy; heroes answer
-with weary irony. Oaths sworn to gods who are listening.
+Untagged or "said" only. Long exchanges with no attribution once the rhythm
+is set. Characters talk past each other; the real subject is never named.
 
 ## Description density
-High color, low patience -- one dazzling paragraph per new vista, then on
-with the action. Sorcery is sensory overload; combat is fast and grim.
+Sparse. One or two physical details per scene, chosen for weight. Weather
+and terrain matter. Interior states shown only through action and omission.
 
 ## POV and tense
-Close third person on a doomed protagonist, past tense. The narrator knows
-fate's shape and lets dread leak in.
+Close third person, past tense. The narrator never explains feelings; the
+iceberg stays underwater.
 
 ## Signature moves
-- The melancholy antihero: power that costs; victory that tastes of ash.
-- Law and Chaos: frame conflicts as cosmic balance, not good versus evil.
-- The sentient burden: weapons, patrons, or gifts with their own hungers.
+- The true sentence: open a scene with one flat factual statement.
+- Ritual detail: hands doing work (rigging, cleaning, cooking) described step by step.
+- The unsaid: end scenes one beat before the emotional payoff.
 
 ## Never do
-No cozy domesticity without an undertow. No clean triumphs. Never let the
-hero be comfortable in his own skin for more than a scene.
+No adverbs of manner. No semicolons. No similes longer than four words.
+Never describe a character's emotion by naming it.
