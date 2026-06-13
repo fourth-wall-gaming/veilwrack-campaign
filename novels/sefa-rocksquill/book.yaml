@@ -10,13 +10,13 @@ high_water_mark: myth-event-e6c26f2ccc3d
 illustrations:
   - file: 01-drake-scaffold.png
     chapter: 1
-    after_scene: 0
+    after_text: hauled on the spear and the spear would not come
     prompt_file: 01-drake-scaffold.txt
   - file: 02-dead-reef-choir.png
     chapter: 1
-    after_scene: 2
+    after_text: settling over the upturned faces
     prompt_file: 02-dead-reef-choir.txt
   - file: 03-vault-challenge.png
     chapter: 1
-    after_scene: 7
+    after_text: rang the falchion out of its sheath
     prompt_file: 03-vault-challenge.txt
