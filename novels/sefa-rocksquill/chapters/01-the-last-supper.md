@@ -16,17 +16,29 @@ The lamp-tenders had seen it and they called for Wardens, and two came, and the 
 
 An old Vael on the scaffold, soot to her elbows, said it to no one. "The east haze used to sing with skimmers at dusk. Been quiet since the thaw."
 
-Sefa flew in to report with her arm splinted to her ribs and the taste of the thing already in her mouth.
-
 ---
 
 Esk Veil-Torn drafted fliers, not invalids, and she said so.
 
-She stood at the survey table with the eastern charts pinned and the dead-air flags clustered thick along the old lane, and she offered three days' rest or the dawn launch, and the honesty to choose between them.
+Sefa made her report at the roost-hall with the arm splinted to her ribs — the kill, the medic's reading of it, the empty eastern lanes. The commander stood at the survey table with the eastern charts already pinned and already flagged with dead air, and she heard it out.
+
+"Good kill. Clean dive, the lamp-tenders say." She did not look up from the charts. "Stupid to stand on it pulling at the spear with the thing still alive. You'll learn." She moved a flag a finger's width east. "Something the size of a drake found nothing to eat across forty kilometres of lane. That's not thinning. That's dead."
+
+She offered three days' rest or the dawn launch, and the honesty to choose between them. "I draft fliers, not invalids, so tell me honestly which you are."
 
 "Sooner is better," Sefa said. "Wouldn't you say, commander."
 
-At next light she drew her kit and met Kithrel of the Moult on the eastern launch ledge — the fastest survey-flier on the muster, a Greywake survivor with eleven lane-tokens braided into her primaries that she did not talk about. Kithrel set the terms the way she set everything, flat and exact.
+So Esk put her and Kithrel of the Moult on the survey line east at next light, dead-air readings every five kilometres, with one order over the rest. "You are not to fight anything you can outfly. One drake on the lamp-rings is an incident. A Warden pair lost in the dead lanes is a hole in my muster." She signed a quartermaster chit for instruments and flares and three days' rations, sent her to the chirurgeon that night, and told her to put the near-fatal grip in her own account, in her own hand. "Vanity kills more fliers than drakes do."
+
+The chirurgeon was a square woman named Veka who took the field-dressing off, looked at the bite, and redid it properly with the arm splinted wing-safe. "You tear my stitches doing something brave," Veka said, "I'll sew the arm to your ribs."
+
+At the mess Sefa asked about Kithrel of the Moult, and the company told her in pieces. Fastest survey-flier on the muster — she'll be at the shallows while you're still finding the lane. A Greywake survivor, off-shift the day the spire sank, who wore eleven lane-tokens braided into her primaries for a flight that did not come back. *Don't touch the braids. Don't ask. She'll tell you or she won't.* And she volunteered for every new Stilling survey and charted the dead-air margins tighter than the regulations allowed.
+
+"She's not measuring the still air," one of them said. "She's daring it."
+
+---
+
+At next light Sefa drew her kit and met Kithrel on the eastern launch ledge. Kithrel set the terms the way she set everything, flat and exact.
 
 "Out to the Veyl shallows along the old east lane. I read the air, you watch the sky. When I say we turn, we turn. The edge doesn't negotiate."
 
@@ -42,21 +54,85 @@ They came in high and offset, on terms — first gust of anything wrong, climb a
 
 On the reef stood nine figures in wax-bleached robes, evenly spaced, facing east, singing low and together. None of them turned. The air around them was wrong, flat and dead, and drifting between them were pale bells the size of a crouching man, slow, going from singer to singer, settling over the upturned faces and drinking.
 
-They pulled back to a reef-knuckle a kilometre and a half west of the zero line and set a picket behind the bone-spine with the light at their backs, because dead air is one-way ground. They watched. The Choir went from nine voices to seven. The bells went from seven to nine.
+They pulled back to a reef-knuckle a kilometre and a half west of the zero line and set a picket behind the bone-spine with the light at their backs, because dead air is one-way ground. They watched, and they talked it through low. The robes were unmarked on purpose, Sefa said — nine matched vestments meant a cell with a wax-house behind it, not strays who wandered in. Kithrel knew the doctrine from her diver days: a stillwight strikes for the head, a thrust passes through it and a wide cutting edge bites, and the things hunt by sensing breath — which was why moving air, west of the zero line, hid the two of them. The Choir went from nine voices to seven. The bells went from seven to nine.
 
 "Head home," Sefa said, when she had seen enough to know the rest. "We don't need to count them to know what's going to happen. Next we find the ones who sent these fools out here to die. Fly quiet and fly safe."
 
-They went west, low and quiet, the wind coming back into their wings like blood into a sleeping hand.
+They flew the wind-gradient on the way back, Kithrel calling the readings — living wind down to absolute zero, the skin of the zone mapped — and somewhere over the last living lane she said it without looking across. "You watched the thing that kills me in my sleep, and you watched me, both at once. Esk drafted well."
+
+At the roost-hall Sefa laid all of it before Esk. The zero reading. The reef. Nine matched vestments. Seven bells becoming nine. The commander did not call it worship.
+
+"Walkers wander in alone. Nine, in matched wax, in formation, on a schedule, at a reef that happens to sit on a Warden survey line — that's not worship. That's logistics. Someone provisioned that." She looked at the charts. "And someone, somewhere west of that zone, is already sewing the next nine."
+
+She sent them into the city to find which wax-house had dressed nine bodies for the east, and to start from the lane-shrine where a Hushed lampwright had been driven off in the spring.
 
 ---
 
-The threads ran down out of the light, into the under-city.
+The city work went badly at first and then well.
 
-A foreman at Orrim's Pale-Vats had run night-shift white work in the spring — nine bodies' worth of wax — for a soft-spoken hooded Vael who smelled of shrine-incense and paid over the odds and did not haggle. The nine bundles had gone down, into the condemned bone-galleries under the windlane approach. And the beggars who slept in the under-stair knew of a supper held there every ninth night: robed folk, candles, in the sealed dark. The next was the next night.
+Sefa's canvass died on the doorstep — her drake story had run ahead of her, the order books shut, a watcher-boy went off his perch and did not come back. Then an old gantry friend named Halla Pitchwick gave her the thread for the price of remembering her name. Orrim's Pale-Vats had run night-shift white work at scale in early spring. The foreman, not the master, had taken the order — from a soft-spoken hooded Vael who smelled of shrine-incense and paid over the odds without haggling. Nine bundles had gone down, portered toward the condemned bone-galleries under the windlane approach.
+
+Kithrel worked the shrine end and came back with the rest. The beggars knew of a quiet supper — robed folk, candles, every ninth night, in the sealed galleries under the approach. The next was the next night. A cantor at the shrine had asked her twice who she flew for.
+
+"Silence bought with coin re-sells to fear at a discount," Kithrel said, when they put the two halves together. "And the moment we let go of the foreman, he re-sells the leaning."
+
+They agreed the order of it. Esk that night. The galleries before dawn. The foreman last, timed so he could not warn the supper. "You're a better pathfinder than I am," Sefa told her, and meant it.
+
+---
+
+Esk heard the converged threads in the night chart room and stood a while with her hands flat on the map.
+
+"They're gathering in the bones of my own spire," she said. "Forty metres under my launch ledge." She approved the plan with three changes. The foreman would be squeezed under a signed writ, because a paid silence cracks faster when refusing is a crime. The supper would be watched, not raided. "I want the client. Spring a raid and I get nine more fools while the tailor walks. Bring me a face." And a rescue wing would stand at the launch ledge from dusk on flare-watch. "A flare under the spire means the quiet game is already lost."
+
+For the gallery scout she gave one standing order, no judgment clause. "Take the aneroid. If it flutters toward zero in a closed bone hall, you walk out."
+
+Then Sefa asked the question that decided what she carried. "Is this spear work or sword work? I'd like something I could use against a stillwight, should the need arise."
+
+Esk confirmed the diver doctrine — a thrust passes through the thing and a wide cutting edge bites — and took a Warden falchion down off the chart-room rack and put it in her hand. Heavy, single-edged, old. "Bring it back with a story or don't bother bringing it back."
+
+Sefa took it with a quiet Kestrel-kin prayer. She drew a throwing hatchet for the close dark and racked her wingspear against the wall as too long for the corridors of the dead.
+
+---
+
+They went down before dawn, the first time, only to look.
+
+Kithrel led, no lamps, blades sooted so they would throw no shine. The galleries opened ahead of them in the grey vent-light, and there was a path swept clean down the middle of them — the sign of regular feet. Kithrel chalked the side-mouths low on the bone as they passed and did not enter any of them. The main line was the job.
+
+It brought them to the supper room: an old Marrower tapping-chamber, twenty metres across, eight or nine mats laid in a half-circle facing a far archway like pews facing a pulpit. Cold tallow stubs. Fresh bread. New mooring rope. Water-jugs stacked against the near wall, provisioned from above and recently.
+
+"Supper room," Kithrel breathed. "Empty. For now."
+
+The far arch hung with a heavy felt curtain, and Sefa learned nothing through it. Kithrel crouched at the gap, a finger on the floor, and read what Sefa could not.
+
+"Hem's weighted. Bone beads, sewn in, so it never swings, never whispers." She drew her breath at the gap. "And smell low. Burnt wick. Tallow-smoke, cold but not old." She sat back. "Supper's tomorrow. So who needed a lamp tonight?"
+
+"Ain't no use getting caught tonight," Sefa said. "Do we have what we need for now?"
+
+"One look up the vault on the way out. Then home before the dawn shift wakes the under-stair. That's my asking price."
+
+While Kithrel found a perch in the vault, the curtain lifted, and a woman came through it. Vael, flat-feathered, a burn-scar on the web of one thumb, an unlit hand-lamp in her grip. She went down the half-circle of mats straightening them, and touched each jug once in a count, and went back through the curtain without a sound. Sefa pressed into a side-mouth and was not seen. Both of them put the face away to keep. On the way out her harness buckle rocked a jug a finger's width out of its dust-ring, and she could not set it right without making it worse, and she left it.
+
+They came up before the dawn shift and took it to Esk.
+
+Sefa gave her the room — the mats, the curtained arch, the provisions from above — and then the keeper, in detail. "Vael woman. Burn-scar on the web of one thumb. Her eyes moved, commander. Nothing behind them did."
+
+"Burn-scar. Left thumb or right?"
+
+"Left."
+
+"Wren Sallowmend." Esk set the name down like a weight. "Lampwright, eastern face, twenty-two years on the wicks. Went silent in spring. She didn't walk into a still zone. Somebody collected her. They're keeping her like a sexton." She looked at the map. "The cult doesn't just worship what the Stilling makes. They house it."
+
+She named the supplier — Bele Tarrow, foreman of the rendering floor at the Pale-Vats — and set the quiet approach. Sefa would catch him alone, between the bells, at a counter-house called the Tallow Cup, with the writ in her pocket and not on the table.
+
+"Quiet," Sefa said. "Commander. When things get loud, I tend to break stuff."
+
+Esk almost smiled. And on the keeper she gave one last order. "If it comes to it down there, break what you have to. But if it can be left standing, leave it standing. She was one of ours first."
+
+---
 
 The foreman's name was Bele Tarrow, and Sefa went to him with her hands empty.
 
-She found him at a counter-house called the Tallow Cup between the first bell and the second — a big Roak gone soft in the shoulders, grey at the crest, sitting with his back to the wall and his eye on the door, guarding a bowl he was not eating. There was a child's tally-bead bracelet on his wrist, old and worn smooth, and he touched it without knowing he did.
+She found him at the Tallow Cup between the first bell and the second — a big Roak gone soft in the shoulders, grey at the crest, sitting with his back to the wall and his eye on the door, guarding a bowl he was not eating. There was a child's tally-bead bracelet on his wrist, old and worn smooth, and he touched it without knowing he did. Kithrel watched the door from across the lane.
 
 She had the charter in her pocket. She left it there and took the stool beside him.
 
@@ -92,15 +168,9 @@ He rose for his shift at the second bell. At the door he turned back, and gave h
 
 ---
 
-Esk heard all of it and named it in a breath. They were not worshipping under her spire. They were housing the Hushed and the bells together in one room, forty metres under her own launch ledge, and feeding it. She gave the orders cold. Watch the supper. Do not raid it.
+They went down again that night, the second time, to watch — and split at the gallery mouth. Kithrel stayed there in the shadow with three flares and Esk's runner. Sefa went up the north scaffold into the vault of the supper-room on half-furled wings — dead air bites only half of nothing, and shoves the other half about the room like a held breath let go — and folded onto the high perch and became part of the bone.
 
-"I want the client. Bring me a face."
-
-She took a falchion from the chart-room rack and put it in Sefa's hand. "Bring it back with a story or don't bother bringing it back." Sefa took it with a quiet prayer, drew a throwing hatchet, and racked her wingspear as too long for the corridors of the dead.
-
-They went down before the next night's supper, and split at the gallery mouth. Kithrel stayed there in the shadow with three flares and Esk's runner. Sefa went up the north scaffold into the vault of the supper-room on half-furled wings — dead air bites only half of nothing, and shoves the other half about the room like a held breath let go — and folded onto the high perch and became part of the bone.
-
-The room woke beneath her. The keeper came first: a Vael woman, flat-feathered, a burn-scar on the web of one thumb, an unlit hand-lamp in her grip. She lit the tallow down the half-circle of mats and the chamber went amber, and the shadows climbed the vault toward Sefa. Then six families filed in and took the mats like mourners taking pews. Then the Hushed, led not driven, seven of them, the tallow-flames leaning and guttering as the dead air came in with them. Among them was a small woman with ink worn into the webbing of her fingers, her eyes open and moving and nothing behind them. Derra Tarrow.
+The room woke beneath her. The keeper came first and lit the tallow down the half-circle of mats, and the chamber went amber, and the shadows climbed the vault toward Sefa. Then six families filed in and took the mats like mourners taking pews. Then the Hushed, led not driven, seven of them, the tallow-flames leaning and guttering as the dead air came in with them. Among them was a small woman with ink worn into the webbing of her fingers, her eyes open and moving and nothing behind them. Derra Tarrow.
 
 Then three came through the felt arch. A big silent Ossuin who took post by the casks. A woman in grey with an ash-censer swinging in her hand. And between them, unhurried, a soft-faced Vael with clean hands and a small closed hand of bone at his collar. Vesh.
 
@@ -128,7 +198,7 @@ Vesh sent the big man to the arch and kept the striker, and Sefa stopped wasting
 
 The families broke for the mouth. Kithrel's flare went up red and hung, and her voice came thin across the room. "Here! Eyes on the light — move!"
 
-Sefa folded her wings and dropped. Nine metres, straight down, the falchion out front, the dive she was born for — and the dead air took it. Her wings found their half of nothing at the bottom and the dive came wrong and the falchion opened on empty, and Vesh simply leaned a hand's-width aside as she fell past his shoulder. She wrenched it back with the last thing she had, and the blade came down through the root of his left wing and did not stop. The wing came away. He folded to the floor, and the pin winked once in the tallow-light.
+Sefa folded her wings and dropped. Nine metres, straight down, the falchion out front, the dive she was born for — and the dead air took it. Her wings found their half of nothing at the bottom and the dive came wrong and the falchion opened on empty, and Vesh simply leaned a hand's-width aside as she fell past his shoulder. She wrenched it back with the last thing she had, and the blade — the wide cutting edge Esk had put in her hand — came down through the root of his left wing and did not stop. The wing came away. He folded to the floor, and the pin winked once in the tallow-light.
 
 His thumb finished its work on the way down.
 
