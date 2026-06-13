@@ -11,15 +11,12 @@ illustrations:
   - file: 01-drake-scaffold.png
     chapter: 1
     after_scene: 0
-    caption: The drake on the lamp-walk
     prompt_file: 01-drake-scaffold.txt
   - file: 02-dead-reef-choir.png
     chapter: 1
     after_scene: 2
-    caption: The nine singers and the drinking bells
     prompt_file: 02-dead-reef-choir.txt
   - file: 03-vault-challenge.png
     chapter: 1
     after_scene: 7
-    caption: The challenge from the vault
     prompt_file: 03-vault-challenge.txt
