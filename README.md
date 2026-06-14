@@ -27,6 +27,7 @@ campaign format (v1.0).
 | `factions/` | Factions and organizations (markdown + frontmatter) |
 | `encounters/` | Combat encounter state (JSON) |
 | `journal/` | The campaign event log (JSON) |
+| `novels/` | Novelizations of actual play, one directory per protagonist/party |
 
 The canonical full-prose worldbook sources live in [`setting/`](setting/) — see its README for the book list and audience guide. The `lore/` files below are the same material sliced into database-ready entries.
 
@@ -148,6 +149,12 @@ The canonical full-prose worldbook sources live in [`setting/`](setting/) — se
 - [The Marrowers](factions/the-marrowers.md) — Industrial guild tapping spire-marrow breath as lift-gas. Profitable. Catastrophic.
 - [The Lanhawk Mews](factions/the-lanhawk-mews.md) — The loose council of windlane pirate clutches out of the Veyl Reefs.
 - [The Deepway of Carrowspar](factions/the-deepway-of-carrowspar.md) — The Ossuin funerary order: keepers of the descent, the wax, and the Long Stair.
+
+## Novels
+
+Actual play at the table, retold as fiction — one play session per chapter, drafted from the campaign journal via the mythras-gm novelization workflow.
+
+- [The Kestrel of Lanternfall](novels/sefa-rocksquill/) — Sefa Rocksquill's run, in the style of Gamesmaster
 
 ## Loading this campaign
 
