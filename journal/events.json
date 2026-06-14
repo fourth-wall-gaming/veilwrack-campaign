@@ -136,5 +136,202 @@
       "myth-char-fa3f498d958e"
     ],
     "at": "2026-06-12T05:45:23"
+  },
+  {
+    "id": "myth-event-286bf5bda815",
+    "type": "session-start",
+    "summary": "SESSION 3 START: New PC Sefa Rocksquill, Vael lance of the Lanternfall Warden draft, begins play at Lanternfall Spire. Scene: dusk lamp-lighting patrol over the western face.",
+    "narrative": null,
+    "session": 3,
+    "involves": [
+      "myth-char-89fb97a2c3ca",
+      "myth-loc-f3c849a67a27"
+    ],
+    "at": "2026-06-12T22:09:31"
+  },
+  {
+    "id": "myth-event-4bd2128771be",
+    "type": "combat",
+    "summary": "Sefa Rocksquill killed a sky-drake over Lanternfall's fourth ring",
+    "narrative": "Sefa surprised a sky-drake hunting the eastern haze off Lanternfall's fourth ring: a diving wingspear charge from above (drake failed its Hard Perception against her Stealth). The impaling hit, relocated by special effect to the left wing, dealt a serious wound; the drake failed Endurance, lost the wing, failed a Hard Flight check, and crashed 12m onto the lamp-ring scaffold, smashing its right wing (second serious wound). Two of Sefa's hatchet blows at its head missed; her attempts to tear the spear free failed (one Luck point spent on a reroll, also failed). Recovering, the drake bit her left arm - serious wound (arm 0 HP, Endurance held, arm functional) - and held on with Grip. Her hatchet blow to its head wounded it (minor) but its critical Endurance shrugged off the Bleed effect. The drake then threw itself over the rim to drag her down by the gripped arm; her critical Brawn (02) against its failed 88 broke the grip, the wing membrane tore off the impaled spear, and the drake fell alone into the deep sky. Spear recovered. Lamp-tenders on the fourth ring witnessed the fight and called for Wardens.",
+    "session": 3,
+    "involves": [
+      "myth-char-89fb97a2c3ca",
+      "myth-char-dbe830e893a7",
+      "myth-loc-f3c849a67a27"
+    ],
+    "at": "2026-06-12T22:33:30"
+  },
+  {
+    "id": "myth-event-7dbc580a6017",
+    "type": "scene",
+    "summary": "Warden medic dressed Sefa's arm and identified the drake as a starving eastern stray; Sefa left to report to Esk",
+    "narrative": "After the fight, two Wardens reached the fourth ring. The medic field-dressed Sefa's bitten left arm (First Aid success, arm stabilized at 1/4, minor). She explained sky-drakes are windlane hunters that follow wind-carried prey: 'A drake doesn't choose its ground. It goes where the wind packs the prey.' On the underfed drake hunting Lanternfall's lamp-rings - the third eastern stray this month: 'It wasn't hunting here because here is good. It was hunting here because the east is empty. Starving animals come to the light.' She called it a survey question for the Commander, and noted the drake was thin under the hide: 'You did it a kindness.' A lamp-tender said: 'The east haze used to sing with skimmers at dusk. Been quiet since the thaw.' Sefa departed to report to Commander Esk Veil-Torn in person.",
+    "session": 3,
+    "involves": [
+      "myth-char-090b0e0c6b34",
+      "myth-char-89fb97a2c3ca",
+      "myth-loc-f3c849a67a27"
+    ],
+    "at": "2026-06-12T22:45:45"
+  },
+  {
+    "id": "myth-event-9879826c3b29",
+    "type": "decision",
+    "summary": "Sefa reported the drake kill to Esk and volunteered to fly the eastern survey at next light despite her wounded arm",
+    "narrative": "Sefa reported to Commander Esk Veil-Torn at the roost-hall: the kill, the medic's starving-stray analysis, the empty eastern lanes. Esk, at the survey table with eastern windlane charts already pinned with dead-air flags, judged the stretch between Lanternfall and the eastern reefs dead, not thinning: 'Something the size of a drake found nothing to eat across forty kilometers of lane.' On the kill: 'Good kill. Clean dive, the lamp-tenders say. Stupid to stand on it pulling at the spear with the thing still alive - you'll learn.' She offered three days' recovery or flying at next light: 'I draft fliers, not invalids, so tell me honestly which you are.' Sefa: 'Sooner is better. Wouldn't you say, commander?' Esk assigned her and Kithrel of the Moult to walk the survey line east to the Veyl shallows at next light - dead-air readings every five kilometers - with orders: 'You are not to fight anything you can outfly. One drake on the lamp-rings is an incident. A Warden pair lost in the dead lanes is a hole in my muster.' She issued a quartermaster chit (instruments, flares, three days' rations), ordered Sefa to see chirurgeon Veka tonight, and to report the near-fatal grip in her own account: 'Vanity kills more fliers than drakes do.'",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-090b0e0c6b34",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-12T22:55:56"
+  },
+  {
+    "id": "myth-event-16433e71165d",
+    "type": "scene",
+    "summary": "Veka treated Sefa's arm; the mess told her about her new wing-partner Kithrel",
+    "narrative": "Chirurgeon Veka redid the field dressing properly (Healing success, arm to 2/4) and splinted it wing-safe: 'You tear my stitches doing something brave, I'll sew the arm to your ribs.' At the roost-hall mess, Sefa asked about Kithrel of the Moult. The company's account: fastest survey-flier on the muster ('She'll be at the shallows while you're still finding the lane'); a Greywake survivor who was off-shift the day the Spire sank and wears her dead flight's eleven lane-tokens braided into her primaries ('Don't touch the braids. Don't ask. She'll tell you or she won't.'); volunteers for every new Stilling survey and charts dead-air margins tighter than regulations allow ('She's not measuring the still air. She's daring it.'); recently back in winded and favoring a leg, with nothing filed about her last job.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-12T23:00:53"
+  },
+  {
+    "id": "myth-event-b5947a25129b",
+    "type": "scene",
+    "summary": "Sefa and Kithrel met at the eastern launch ledge and departed on the dead-lane survey",
+    "narrative": "At next light Sefa drew survey kit (aneroid, lane charts, six flares, three days' rations, rescue line) and met Kithrel of the Moult on the eastern launch ledge. Kithrel set the terms: 'Out to the Veyl shallows along the old east lane. I read the air, you watch the sky. When I say we turn, we turn - the edge doesn't negotiate.' Sefa answered 'I'll try to keep up' and let her lead. The pair departed east. Sefa's arm at 3/4 after overnight healing.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-12T23:07:51"
+  },
+  {
+    "id": "myth-event-ed1c0da496a2",
+    "type": "scene",
+    "summary": "Survey pair found a zero-wind still zone 15km east with nine Hushed Choir singers on a skim-reef; set a covered picket to watch",
+    "narrative": "Fifteen kilometers east on the old lane, Sefa spotted pale shapes in the haze (Perception failed at range; Kithrel's also failed - she said: 'Nine years on this lane... that is none of them'). The pair made a high offset approach on agreed terms ('First gust of anything wrong, we climb and run west'). At 400m Kithrel's aneroid read zero: 'Not low. Zero. There is no breath in this air at all... the still zone isn't out at the shallows - it's here.' On the reef: nine figures in wax-bleached robes - Hushed Choir - evenly spaced, facing east, singing low in unison. None reacted to the fliers. The pair withdrew to a reef knuckle 1.5km west outside the zero line and set a couriers' picket behind the bone spine, light at their backs ('Dead air is one-way ground'). Sefa chose to watch and wait, covering Kithrel: 'This is where we cover each other in case the deal goes bad.'",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-12T23:36:11"
+  },
+  {
+    "id": "myth-event-0c20beced070",
+    "type": "decision",
+    "summary": "Sefa called off the watch and the pair flew home to report; next objective - find who sent the Choir walkers",
+    "narrative": "After watching a second singer be drunk dry (Choir at seven voices, stillwights at nine), Sefa ended the picket: 'Head home - we don't need to count them to know what's going to happen. Next actions are to find those who sent these cultists here to die. Fly quiet and fly safe.' Strategic knowledge gathered beforehand: Sefa's Customs read failed to place the cell's roost (wax-bleached vestments are deliberately unmarked), but nine matched vestments imply an organized cell with a wax-house; Kithrel recalled the Hushed lampwright driven off Lanternfall's lane-shrine in spring and noted 'Cells that size don't make nine vestments. But cells grow.' Kithrel's diver-lore on stillwights: they strike the head, wide cutting edges work where thrusts pass through, and they hunt by sensing breath - moving air west of the zero line conceals the pair. The two withdrew west along the old lane, quiet and low.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-12T23:46:00"
+  },
+  {
+    "id": "myth-event-5f37b610cbc6",
+    "type": "scene",
+    "summary": "Pair reported the still zone and Choir feeding to Esk; she read it as logistics and tasked them with the city investigation",
+    "narrative": "The pair returned to Lanternfall at dusk with a complete wind gradient (Kithrel took readings on the return leg: living wind down to absolute zero, the zone's skin mapped). On the wing Kithrel told Sefa: 'You watched the thing that kills me in my sleep, and you watched me, both at once. Esk drafted well.' At the roost-hall Sefa reported all of it to Esk: zero reading, the reef, nine matched vestments, seven bells becoming nine, two singers drunk dry without breaking the chord. Esk's assessment: 'Walkers wander in alone... Nine, in matched wax, in formation, on a schedule, at a reef that happens to sit on a Warden survey line. That's not worship. That's logistics. Someone provisioned that... And someone, somewhere west of that zone, is already sewing the next nine.' She tasked the pair with quiet city work starting from the lane-shrine where a Hushed lampwright was driven off in spring, and finding which wax-house dressed nine bodies for the east.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-090b0e0c6b34",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-12T23:49:51"
+  },
+  {
+    "id": "myth-event-1c6db4a9cec7",
+    "type": "decision",
+    "summary": "Both threads converged on the sealed bone-galleries; pair agreed: report to Esk, scout galleries pre-dawn, squeeze Orrim's foreman timed against tomorrow's gathering",
+    "narrative": "Sefa's Warden-tainted canvass failed (her drake story had traveled; order books shut; a watcher-boy vanished from his perch), but a Luck-point reroll through Halla Pitchwick, an old gantry friend, succeeded: Orrim's Pale-Vats ran night-shift white work at scale in early spring; the foreman (not the master) took the order from a soft-spoken hooded Vael smelling of shrine-incense who paid over the odds without haggling; nine bundles were portered DOWN toward the condemned bone-galleries. Kithrel's shrine thread: beggars know a 'quiet supper' - robed folk, candles, every ninth night in the sealed galleries under the windlane approach; next gathering tomorrow night. A cantor asked twice who Kithrel flew for. Kithrel's counsel on the foreman: 'Silence bought with coin re-sells to fear at a discount... and the moment we let go of him, he re-sells the leaning.' Plan agreed (Sefa: 'You're a better pathfinder than I am'): Esk tonight, galleries before dawn, foreman last, timed so he cannot warn the supper.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T00:12:56"
+  },
+  {
+    "id": "myth-event-39a5697ab9ef",
+    "type": "scene",
+    "summary": "Pair reported the converged threads to Esk; she set terms - watch not raid, foreman under writ, rescue wing on flare-watch - and armed Sefa with a falchion",
+    "narrative": "Sefa reported both threads and the plan to Esk at the night chart room. Esk: 'They're gathering in the bones of my own spire. Forty meters under my launch ledge.' She approved the order of operations with three adjustments: the foreman squeeze happens under signed writ ('A paid silence cracks faster when refusing is illegal'); the supper gets watched, not raided ('I want the client... Spring a raid and I get nine more fools while the tailor walks. Bring me a face.'); a rescue wing stands at the launch ledge from dusk on flare-watch ('a flare under the spire means the quiet game is already lost'). Standing order for the gallery scout: take the aneroid; if it flutters toward zero in a closed bone hall, walk out - 'no judgment clause.' On stillwights she confirmed diver doctrine - thrusts pass through, wide cutting edges bite - and issued Sefa a Warden falchion from the chart-room rack ('Bring it back with a story or don't bother bringing it back'). Sefa took it with a Kestrel-kin prayer, drew a throwing hatchet, and racked her wingspear as too long for bone-hall corridors.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-090b0e0c6b34",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T00:33:43"
+  },
+  {
+    "id": "myth-event-31f85df372c0",
+    "type": "scene",
+    "summary": "Sefa and Kithrel scouted the condemned bone-galleries under the windlane approach before dawn, found the cult's supper room, and observed a Hushed caretaker; they withdrew undetected but left a water-jug out of place.",
+    "narrative": "Pre-dawn scout of the condemned bone-galleries beneath Lanternfall's windlane approach. Entry: Kithrel led, no lamps, blades sooted. Found a swept path through the galleries; Kithrel chalk-marked side mouths without entering. Discovered the supper room: a Marrower tapping-chamber ~20m across, 8-9 mats in a half-circle facing a far archway, cold tallow stubs, fresh bread, new mooring rope, water-jugs stacked against the near wall (provisioned from above, recently). Kithrel at the archway: 'Supper room. Empty. For now.' The far arch (defaced Marrower tally-marks) hung with a heavy felt curtain. Sefa learned nothing through it; Kithrel found the hem weighted with bone beads and smelled burnt wick: 'Hem's weighted. Bone beads, sewn in - so it never swings, never whispers. And smell low, at the gap. Burnt wick. Tallow-smoke, cold but not old.' Then: 'Supper's tomorrow. So who needed a lamp tonight?' Sefa: 'Ain't no use getting caught tonight. Do we have what we need for now?' Kithrel asked one more thing: 'One look up the vault on the way out. Then home before the dawn shift wakes the under-stair. That's my asking price.' Sefa agreed. While Kithrel found an overwatch perch in the vault (north scaffold corner, sightline to mats and arch), a figure emerged through the curtain: a Hushed Vael woman, lamp-tender's build, burn-scar on one thumb-web, carrying an unlit hand-lamp; she straightened the mats, touched each jug once in count, and returned through the curtain. Sefa hid in a side mouth and was not seen; both memorized her face. On withdrawal Sefa's harness buckle rocked a water-jug; the verger did not hear, but the jug was left out of its dust-ring. Both exited before the dawn shift. Kithrel: 'Perch is good. Vault corner, north scaffold. Sees the mats and the arch both.'",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T01:29:00"
+  },
+  {
+    "id": "myth-event-13bdeeca932f",
+    "type": "scene",
+    "summary": "Sefa and Kithrel reported the gallery scout to Esk before dawn; Esk identified the Hushed caretaker as Wren Sallowmend, named foreman Bele Tarrow as the supper's supplier, and issued a writ of inquiry for a quiet approach at the Tallow Cup.",
+    "narrative": "Pre-dawn report in Esk's office. Sefa described the supper room (mats in a half-circle facing a curtained arch 'like pews facing a pulpit', fresh provisions from above) and the keeper in detail: 'Vael woman... burn-scar on the web of one thumb... Her eyes moved, commander. Nothing behind them did.' Esk asked 'Burn-scar. Left thumb or right?' Sefa: 'Left.' Esk identified her: 'Wren Sallowmend. Lampwright, eastern face, twenty-two years on the wicks. Went silent in spring... She didn't walk into one. Somebody collected her. They're keeping her like a sexton. The cult doesn't just worship what the Stilling makes. They house it.' Kithrel presented the vantage plan: 'Vantage is the vault... North scaffold corner... we count every face by their own tallow-light, and they never look up because nothing that prays looks up. Second position at the gallery mouth covers the withdrawal. Two watchers in the vault, one runner at the mouth.' Esk's conditions: foreman squeeze happens first, tomorrow morning, because of the displaced jug; at the supper 'You are not there to win. You are there to leave knowing a face.' On the foreman: Bele Tarrow, Roak, foreman of the rendering floor at Orrim's Pale-Vats; supplies move through Pale-Vats stores off his tally (source: Brell's people). The writ of inquiry (lane-safety charter, Esk's seal): compels truthful answers on windlane/Stilling matters, allows inspection of work-floors/stores/tallies, requires assistance; does NOT allow detention, home search, or force unless he draws first. Esk offered loud (work-floor, witnesses) or quiet (alone). Sefa: 'Quiet. Commander. When things get loud, I tend to break stuff.' Esk: Tarrow takes first-meal alone at the Tallow Cup, under-stair side, between first and second bell (Brell's note); Kithrel watches the door. Esk's parting order on Sallowmend: 'If it comes to it down there - break what you have to. But if it can be left standing, leave it standing. She was one of ours first.'",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-090b0e0c6b34",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T01:37:50"
+  },
+  {
+    "id": "myth-event-9e80c4229c4c",
+    "type": "scene",
+    "summary": "At the Tallow Cup, Sefa won foreman Bele Tarrow's trust with kindness rather than the writ; he confessed his Hushed daughter Derra is 'kept' by the cult, that he pays her keeping ninth-nightly, and that the soft-spoken Vael who collects it wears a Featherwright bone-pin and has recently demanded large quantities of mooring rope and lamp-oil.",
+    "narrative": "Tallow Cup counter-house, between first and second bell; Kithrel watched the door from across the lane. Sefa sat square beside Bele Tarrow (Roak, soft-shouldered, grey, sleepless, back to the wall, child's tally-bead bracelet on his wrist) and opened by invoking the drake: 'You heard about the drake this week?' Tarrow: 'You're the Rocksquill. The Kestrel.' Sefa read him (Insight): not paid but frightened; fear comes from below the stair, not the guild; grieving in advance; a hold on him via family. She set the writ aside and asked gently: 'Is everyone okay? Anything I could help you with, Bele Tarrow?' He broke and confessed: his daughter Derra (vat-clerk, his own floor) went Hushed at Winterend. A soft-spoken Vael, clean hands, lamp-oil-and-coin smell, educated 'like a Quillate clerk', found him and said (Tarrow quoting verbatim): 'The silence is not a sickness, foreman. It is an arrival. She will be honored among us, and you may pay her keeping like any loving father pays a dowry.' Since then Tarrow pays ninth-nightly off his own Pale-Vats tally - bread, jugs, mooring rope - left at the third side-mouth past the under-stair. He saw Derra once at Solstice, 'let me stand at a curtain and watch her straighten mats' - 'She looked kept. That's all I can say. Kept.' NINE DAYS AGO the asking changed: the soft man demanded quantity mooring rope and lamp-oil - four casks, casks again tonight. Tarrow: 'They sit in the dark down there. They love the dark. So what does a congregation that doesn't light lamps want with that much oil?' Sefa told him the truth: 'Those people who say they're tending people with the stillness, they're tending the stillness itself.' Tarrow: 'I know. I knew when they asked for the rope. You don't need rope to tend the sick.' On the leader: the soft man never gave a name; Vael, educated voice. Tarrow keeps a private second tally and deduces at least three: the soft man (gives orders), a woman with a cantor's lilt, and a big quiet one who does the lifting. Three ninth-nights ago the soft man wore a new collar pin - small worked bone shaped like a closed hand - which Tarrow (a rendering man who knows worked bone) identified as Featherwright guild bone-craft. He left for his shift at second bell with: 'My girl, Warden. Whatever you're doing down there. My girl.'",
+    "session": 3,
+    "involves": [
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T02:22:14"
+  },
+  {
+    "id": "myth-event-88584b5310a1",
+    "type": "scene",
+    "summary": "From a vault perch in the bone-galleries, Sefa and Kithrel watched the cult's 'last supper' turn to mass immolation; Sefa threw a hatchet to stop the lifter, dove and cleaved the surgeon-leader Vesh's wing, but he lit the spilled oil. Sefa hauled out the grieving families and Hushed girl Derra Tarrow through the fire at the cost of a burned-out wing; Vesh burned with the room.",
+    "narrative": "Night op in the condemned bone-galleries. Split watch: Sefa on the north scaffold vault perch (wing-assisted climb, Flight, in dead air), Kithrel at the gallery mouth with three flares and Esk's runner. The keeper Wren Sallowmend lit the tallow; six grieving families filed in to the mats; seven Hushed were led in, among them DERRA TARROW (Vael, vat-clerk, ink-stained fingers - Bele Tarrow's daughter). Leadership entered through the felt arch: a big silent Ossuin lifter, a living cantor in grey with an ash-censer, and the soft-spoken Vael leader VESH ('the Mercy'), wearing the closed-hand Featherwright wing-surgeon's pin. Vesh to the families: 'Friends. You've fed them faithfully, and they've grown. Tonight they're ready to give back what the world gave them - and you'll have your beloveds returned to the air they came from. All of you. Tonight is the last supper. After this, no one need pay again.' The lifter put a hand on an oil-cask. Sefa hurled a throwing-hatchet from the perch (surprise attack, Choose Location + Bleed) into the lifter's cask-wrist, stopping the pour and blowing her cover. Vesh produced a spark-striker over spilled oil and called up to her: 'A Warden. Of course. Come down, feather - you don't want to be up there when this room goes to sleep. There's no flying in dead air, and there's no flying at all once I turn my wrist.' Sefa stalled with a loud bluff (Influence augmented by Hatred of the Stilling) - 'You're surrounded, surgeon - the whole draft's in these galleries!' Vesh saw through it: 'No. There are no other wings. I'd have heard them. This air carries a lie better than it carries a flock.' But the families heard her name the casks; the grey-crested Lanhawk man: 'Vesh. He said it was a blessing. He said our daughter would only-'. Vesh sent the wounded lifter to the arch and kept the striker. Sefa shouted the families to run to Kithrel's flare ('To the flares! GO - the wing's at the door!'); they fled and Kithrel marshaled them out. Sefa dove nine metres to cleave Vesh (diving charge); first dive failed in the dead air, re-rolled with her LAST luck point - landed a Major wound, severing Vesh's left wing - but he completed the striker-crank and the spilled lamp-oil ignited. Fire raced to the casks. Sefa grabbed the dying Vesh meaning to haul him out, then - as the first cask began to burst - rammed his body into the cask to absorb the blast and lunged for Derra (Evade, failed; the blast threw her and burned her left wing to a Serious wound, ruined - no flight). She reached Derra; the girl's 3m dead-air hush smothered the flames but emptied Sefa's lungs. Grounded and burning, Sefa carried Derra 15m through the fire toward the mouth holding her breath (Endurance augmented by Loyalty to the Warden draft, failed) and collapsed five metres short, asphyxiating. With her last act she looped Esk's rescue-line around Derra and shoved the girl to Kithrel: 'GOT her - I've GOT HER.' The hush left with Derra and the fire closed on the unconscious Sefa; Kithrel dropped the line and went back into the fire for her partner as a cask blew, dragging her clear. Sefa woke outside on the cold gallery floor. Kithrel: 'There she is, you stubborn squill. I went in for you. Cask went off behind us - you owe me a drink.' OUTCOME: all six families and the Hushed girl Derra out alive; Vesh ('the Mercy', Featherwright wing-surgeon) burned with the supper room; the gallery and its housed Hushed/stillwights lost to fire and a new Stilling-scar; the cantor and Sallowmend's fates unconfirmed. Sefa: left wing burned out (Serious), Luck 0, Wearied, alive.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T04:04:36"
+  },
+  {
+    "id": "myth-event-e6c26f2ccc3d",
+    "type": "session-end",
+    "summary": "Session 3 closed: Sefa Rocksquill survived the sky-drake, traced the Hushed Choir's gallery-cult through Lanternfall's under-stair, and broke up their 'last supper' - saving six families and the Hushed girl Derra Tarrow at the cost of a burned-out wing, while the cult's surgeon-leader Vesh burned with the room.",
+    "narrative": "SESSION 3 END. Arc: (1) Sefa rode the western-face sky-drake down and killed it, taking a Left Arm wound. (2) Recovered under the troop medic Veka; Esk assigned her the halfway-survey of the eastern windlane. (3) Survey found a zero-wind still zone 15km east where nine Hushed Choir walkers had fed themselves to seven stillwights; Sefa and Kithrel withdrew and reported. (4) Investigation threads converged on a 'quiet supper' every ninth night in the condemned bone-galleries under the windlane approach, provisioned by Pale-Vats foreman Bele Tarrow under coercion - his Hushed daughter Derra is 'kept' there. (5) Pre-dawn scout located the supper room and the Hushed keeper Wren Sallowmend. (6) Sefa won Tarrow's confession with kindness, learning the soft-spoken cult-leader wears a Featherwright wing-surgeon's closed-hand pin and had just ordered quantity rope and lamp-oil. (7) Esk reframed it: the cult is cultivating a Stilling at the throat of Lanternfall; ordered the supper watched, not raided. (8) The night watch went wrong when the supper proved to be a mass immolation; Sefa intervened, cleaved the leader Vesh's wing, but he lit the oil. She hauled the families and Derra out through the fire, burning her left wing to ruin; Vesh died in the blaze. EXPERIENCE: 3 experience rolls awarded to Sefa for an exceptional session (combat survival, the kindness-led interrogation, and the rescue under fire). Next session: 4. Sefa state: Left Wing Serious (grounded; Fallen Fund surgery pending), Luck 0, Wearied, alive. Open threads: the Featherwright connection (how high does the closed hand go?), the cantor's and Sallowmend's fates, Derra's return to her father, and a fresh Stilling-scar under the approach.",
+    "session": 3,
+    "involves": [
+      "myth-char-07de1099b49c",
+      "myth-char-89fb97a2c3ca"
+    ],
+    "at": "2026-06-13T04:22:38"
   }
 ]

@@ -1,0 +1,29 @@
+{
+  "id": "myth-enc-ba0d9eb1153d",
+  "name": "Sky-drake over the fourth ring",
+  "description": null,
+  "summary": null,
+  "status": "resolved",
+  "round": 4,
+  "combatants": [
+    {
+      "id": "myth-char-89fb97a2c3ca",
+      "name": "Sefa Rocksquill",
+      "initiative": 11,
+      "ap": 1,
+      "max_ap": 2,
+      "conditions": [],
+      "dex": 12
+    },
+    {
+      "id": "myth-char-dbe830e893a7",
+      "name": "Sky-Drake (eastern haze)",
+      "initiative": 7,
+      "ap": 2,
+      "max_ap": 2,
+      "conditions": [],
+      "dex": 13
+    }
+  ],
+  "created_at": "2026-06-12T22:13:26"
+}
