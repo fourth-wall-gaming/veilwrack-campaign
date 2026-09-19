@@ -59,7 +59,7 @@
       ],
       "ap": 0,
       "hp": 5,
-      "current_hp": 4
+      "current_hp": 5
     },
     {
       "name": "Left Leg",
@@ -169,7 +169,7 @@
   },
   "spells": null,
   "extras": null,
-  "fatigue": "Winded",
+  "fatigue": "Fresh",
   "luck_current": 2,
   "magic_current": 12,
   "experience_rolls": 0,

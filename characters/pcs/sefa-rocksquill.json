@@ -110,7 +110,7 @@
       ],
       "ap": 0,
       "hp": 5,
-      "current_hp": 0
+      "current_hp": 5
     },
     {
       "name": "Right Arm",
@@ -184,8 +184,8 @@
   },
   "spells": null,
   "extras": null,
-  "fatigue": "Wearied",
-  "luck_current": 0,
+  "fatigue": "Fresh",
+  "luck_current": 3,
   "magic_current": 13,
   "experience_rolls": 0,
   "location": "myth-loc-f3c849a67a27",

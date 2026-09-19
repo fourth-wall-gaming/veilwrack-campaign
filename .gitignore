@@ -2,3 +2,9 @@ novels/*/.build/
 
 # macOS
 .DS_Store
+
+# The record of play lives on the `playthroughs` branch, never on main: the
+# novelisation, the full journal, the resolved encounters and the party as they
+# stood mid-campaign. A release is the campaign as a NEW group finds it.
+# To work with them: git checkout playthroughs
+novels/

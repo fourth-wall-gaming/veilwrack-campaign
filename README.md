@@ -25,9 +25,9 @@ campaign format (v1.0).
 | `templates/` | Reusable creature/NPC stat blocks (JSON) |
 | `locations/` | Places (markdown + frontmatter) |
 | `factions/` | Factions and organizations (markdown + frontmatter) |
-| `encounters/` | Combat encounter state (JSON) |
+| `encounters/` | Combat encounter state (JSON) — empty in a release; populated in play |
 | `journal/` | The campaign event log (JSON) |
-| `novels/` | Novelizations of actual play, one directory per protagonist/party |
+| _(`novels/`)_ | Novelizations of actual play — **on the `playthroughs` branch**, not here |
 
 The canonical full-prose worldbook sources live in [`setting/`](setting/) — see its README for the book list and audience guide. The `lore/` files below are the same material sliced into database-ready entries.
 
@@ -150,11 +150,26 @@ The canonical full-prose worldbook sources live in [`setting/`](setting/) — se
 - [The Lanhawk Mews](factions/the-lanhawk-mews.md) — The loose council of windlane pirate clutches out of the Veyl Reefs.
 - [The Deepway of Carrowspar](factions/the-deepway-of-carrowspar.md) — The Ossuin funerary order: keepers of the descent, the wax, and the Long Stair.
 
-## Novels
+## Two branches
 
-Actual play at the table, retold as fiction — one play session per chapter, drafted from the campaign journal via the mythras-gm novelization workflow.
+`main` is the campaign, at its starting state: the worldbook, the spires, the
+factions, three playable Alar and the NPCs they will meet. The journal holds
+one line — the seed note — and nothing has happened yet.
 
-- [The Kestrel of Lanternfall](novels/sefa-rocksquill/) — Sefa Rocksquill's run, in the style of Gamesmaster
+`playthroughs` is the record of the table: the full 28-event journal of the
+first run, the two resolved encounters, the party as they stood mid-campaign
+(wounded, out of luck), and **The Kestrel of Lanternfall**, Sefa Rocksquill's
+run novelised in the style of Gamesmaster, with plates and a typeset PDF.
+
+Nothing was thrown away to make the release — the branch was cut first and
+holds the complete original tree.
+
+```bash
+git checkout playthroughs    # the record, and the novel
+git checkout main            # the campaign as a new group finds it
+```
+
+Do not merge `playthroughs` into `main`.
 
 ## Loading this campaign
 
@@ -165,8 +180,9 @@ python skills/mythras-gm/mythras_gm.py import-campaign --path <this-directory> -
 Then resume play with `get-context --campaign <new-id>`.
 
 > Lore files marked `visibility: "gm"` contain spoilers. Players: browse
-> `lore/` but skip anything GM-marked, and stay out of `encounters/` and
-> `journal/` if you want to avoid table history.
+> `lore/` but skip anything GM-marked. The table history that used to sit in
+> `journal/` and `encounters/` is on the `playthroughs` branch now, so there is
+> nothing here to walk into by accident.
 
 Based on Mythras Imperative, Written by Pete Nash and Lawrence Whitaker,
 published by The Design Mechanism, Copyright 2023, used under the ORC License.
