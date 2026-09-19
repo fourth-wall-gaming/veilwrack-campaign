@@ -2,6 +2,25 @@
 
 An original sky-realm campaign. Winged Alar peoples on the floating bone-spires of dead sky-leviathans face the Stilling: the wind itself is dying.
 
+## Install
+
+```
+/plugin marketplace add fourth-wall-gaming/mythras-gm
+/plugin install veilwrack@fourth-wall-gaming
+/veilwrack:start
+```
+
+> **The marketplace is the [mythras-gm](https://github.com/fourth-wall-gaming/mythras-gm)
+> repository, not this one.** This repo is a *plugin*; the engine repo carries the
+> marketplace manifest that lists it. Adding this repository as a marketplace will
+> fail with `no manifest found at .claude-plugin/marketplace.json`, which is
+> correct and expected — there is deliberately only one marketplace, so that a
+> campaign's dependency on the engine resolves by itself.
+
+Installing pulls the mythras-gm engine in automatically; `/veilwrack:start`
+imports the campaign, briefs you on Mythras if you are new to it, and walks you
+through choosing or rolling an Alar.
+
 A **Mythras Imperative** campaign in the
 [mythras-gm](https://github.com/fourth-wall-gaming/mythras-gm) publishable
 campaign format (v1.0).
