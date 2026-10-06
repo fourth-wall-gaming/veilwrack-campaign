@@ -45,11 +45,36 @@ if ! command -v uv >/dev/null 2>&1; then
   exit 0
 fi
 
-# The engine's own hook normally has the database up already. Calling init-db
-# here too is cheap, idempotent, and removes any dependence on hook ordering.
-if ! INIT=$(gm init-db 2>&1); then
-  REMEDY=$(printf '%s' "$INIT" | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d.get("remedy") or d.get("error") or "")' 2>/dev/null || true)
-  [ -z "$REMEDY" ] && REMEDY="$INIT"
+# Do NOT call init-db here. It is not concurrency-safe -- run two together and
+# whichever loses exits 1 with a TypeDB commit conflict -- and the engine's own
+# SessionStart hook calls it at this exact moment. When both hooks called it one
+# always lost, and the loser announced that the save file did not exist on a
+# perfectly healthy install. Observed from both sides in real sessions.
+#
+# The engine owns bringing the database up. This hook only waits for it to become
+# readable. init-db appears once, as a last resort, for the case where the
+# engine's hook did not run at all -- by which point nothing is racing us.
+DB_READY=""
+for _ in 1 2 3 4 5 6; do
+  if gm list-campaigns >/dev/null 2>&1; then DB_READY="yes"; break; fi
+  sleep 2
+done
+
+if [ -z "${DB_READY}" ]; then
+  gm init-db >/dev/null 2>&1 || true
+  PROBE=$(gm list-campaigns 2>&1) && DB_READY="yes"
+fi
+
+if [ -z "${DB_READY}" ]; then
+  REMEDY=$(printf '%s' "${PROBE:-}" | python3 -c '
+import json,sys
+try:
+    d = json.load(sys.stdin)
+except Exception:
+    print(""); raise SystemExit
+print(d.get("remedy") or d.get("error") or "")
+' 2>/dev/null || true)
+  [ -z "$REMEDY" ] && REMEDY="${PROBE:-the database did not become readable}"
   cat <<MSG
 veilwrack: PREFLIGHT FAILED -- the game database is not usable, so there is no
 save file and no dice tower.
@@ -63,13 +88,21 @@ MSG
 fi
 
 if gm get-campaign --campaign "$SEED_ID" >/dev/null 2>&1; then
+  # NB: no backslashes and no single quotes inside this snippet. It is wrapped in
+  # a single-quoted shell string, and the previous version used \" escapes inside
+  # an f-string expression -- a SyntaxError, so python3 exited non-zero every
+  # time, the fallback fired, SESSION became "?" rather than "0", and this hook
+  # took the in-progress branch and told the player NOT to run the start command.
+  # It left no trace because the snippet's stderr is discarded.
   STATE=$(gm get-campaign --campaign "$SEED_ID" 2>/dev/null | python3 -c '
 import json,sys
 try:
     c = json.load(sys.stdin).get("campaign") or {}
 except Exception:
     print("?|?"); raise SystemExit
-print(f"{c.get(\"myth-game-date\") or \"?\"}|{c.get(\"myth-session-number\")}")
+date = c.get("myth-game-date") or "?"
+session = c.get("myth-session-number")
+print("%s|%s" % (date, session))
 ' 2>/dev/null || echo "?|?")
   CLOCK="${STATE%%|*}"; SESSION="${STATE##*|}"
   if [ "${SESSION:-0}" = "0" ]; then
