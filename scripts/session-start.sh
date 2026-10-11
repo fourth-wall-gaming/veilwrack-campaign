@@ -29,13 +29,22 @@ VW="${CLAUDE_PLUGIN_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 if [ -z "${GM_ROOT}" ]; then
   cat <<MSG
 veilwrack: the mythras-gm engine is not installed, so this campaign cannot run.
+VEILWRACK_ROOT=${VW}
 
-  /plugin install mythras-gm@fourth-wall-gaming
+Install it from the same marketplace this campaign came from -- open the plugin
+browser (/plugins in Codex, /plugin in Claude Code), find mythras-gm, install
+it, and START A NEW SESSION: a plugin's skills only appear in a session opened
+after it was installed.
 
-Veilwrack declares that dependency, so it should have arrived automatically --
-if it did not, install it by hand, or set MYTHRAS_GM_ROOT to a checkout. Until
-then: do not GM this campaign off the files in this package. They are a source
-export, not a save file, and nothing you change in them reaches the game.
+Veilwrack declares that dependency, which Claude Code installs for you. CODEX
+DOES NOT -- its manifest spec has no plugin-level dependencies field -- so there
+you must install mythras-gm alongside this campaign.
+
+Failing that, set MYTHRAS_GM_ROOT to a checkout of the engine.
+
+Until then: do not GM this campaign off the files in this package, and do not
+follow the veilwrack-start skill. They are a source export, not a save file, and
+nothing you change in them reaches the game.
 MSG
   exit 0
 fi
@@ -82,7 +91,8 @@ save file and no dice tower.
   ${REMEDY}
 
 Do not narrate, do not roll, and do not tell the user anything was saved. Offer
-to run /mythras-gm:setup.
+to follow the mythras-setup skill (/mythras-gm:setup in Claude Code).
+VEILWRACK_ROOT=${VW}
 MSG
   exit 0
 fi
@@ -106,12 +116,12 @@ print("%s|%s" % (date, session))
 ' 2>/dev/null || echo "?|?")
   CLOCK="${STATE%%|*}"; SESSION="${STATE##*|}"
   if [ "${SESSION:-0}" = "0" ]; then
-    echo "veilwrack: the campaign is imported and has not been started (clock ${CLOCK}). Run /veilwrack:start to choose a character and open the scenario. MYTH_CAMPAIGN=${SEED_ID}"
+    echo "veilwrack: the campaign is imported and has not been started (clock ${CLOCK}). Follow the veilwrack-start skill (/veilwrack:start in Claude Code) to choose a character and open the scenario. MYTH_CAMPAIGN=${SEED_ID} VEILWRACK_ROOT=${VW}"
   else
-    echo "veilwrack: a game is in progress -- ${SEED_ID}, clock ${CLOCK}, session ${SESSION}. Resume it with /mythras-gm:play. Do NOT run /veilwrack:start; it is for a campaign that has not begun."
+    echo "veilwrack: a game is in progress -- ${SEED_ID}, clock ${CLOCK}, session ${SESSION}. Resume it with the mythras-play skill (/mythras-gm:play in Claude Code). Do NOT follow veilwrack-start; it is for a campaign that has not begun. VEILWRACK_ROOT=${VW}"
   fi
   exit 0
 fi
 
-echo "veilwrack: the campaign is installed but has not been imported into the database yet. Run /veilwrack:start -- it will import ${SEED_ID} from ${VW} and walk the player through choosing a character. Do not GM from the files in this package; they are a source export, not the save."
+echo "veilwrack: the campaign is installed but has not been imported into the database yet. Follow the veilwrack-start skill (/veilwrack:start in Claude Code) -- it will import ${SEED_ID} from ${VW} and walk the player through choosing a character. Do not GM from the files in this package; they are a source export, not the save. VEILWRACK_ROOT=${VW}"
 exit 0
