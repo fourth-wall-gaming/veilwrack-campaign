@@ -1,0 +1,30 @@
+name: tests
+
+# This repository had no CI. The portability guard and the engine-probe suite
+# both exist to catch a silent, host-specific break -- a guard that never runs
+# is decoration, so it runs here on every push and pull request.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Run the suite
+        # No database and no engine needed: these tests read this package's own
+        # files and source scripts/engine.sh against a faked home directory.
+        run: uv run --with pytest --with pyyaml pytest -q tests/

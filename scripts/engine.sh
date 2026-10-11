@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Find the mythras-gm engine. Sourced by this plugin's hook and cited by its
+# Find the mythras-gm engine. Sourced by Veilwrack's hook and cited by its
 # commands; sets GM_ROOT, GM_SKILL and GM_CLI, or returns 1.
 #
 # This exists because of a hard limit in the plugin system: ${CLAUDE_PLUGIN_ROOT}
@@ -32,13 +32,24 @@ _engine_find() {
 
   # 2. The breadcrumb the engine's own init-db drops. Deterministic and
   #    version-agnostic -- but a plugin upgrade can leave it stale, so check.
-  local pointer="${HOME:-}/.claude/mythras-gm/engine-root"
-  if [ -n "${HOME:-}" ] && [ -f "$pointer" ]; then
-    local p; p=$(head -1 "$pointer" 2>/dev/null)
+  #
+  #    Two locations, host-neutral first. The ~/.claude one is not a statement
+  #    that Claude Code is installed; it is simply where the engine first put
+  #    it, and an engine older than this campaign writes only that one. The
+  #    engine is a separately versioned plugin, so both must be read.
+  local pointer p
+  for pointer in "${HOME:-}/.mythras-gm/engine-root" \
+                 "${HOME:-}/.claude/mythras-gm/engine-root"; do
+    [ -n "${HOME:-}" ] || break
+    [ -f "$pointer" ] || continue
+    # `read -r` trims the ends and nothing else: a whitespace-only file (an
+    # interrupted write) reads as empty, while a path that legitimately
+    # contains a space survives intact.
+    p=""; read -r p < "$pointer" 2>/dev/null || true
     if [ -n "$p" ] && [ -f "${p}/${gm_rel}" ]; then
       printf '%s' "$p"; return 0
     fi
-  fi
+  done
 
   local plugins="${HOME:-}/.claude/plugins"
 
@@ -76,14 +87,31 @@ if best: print(best[1])
   #    cache/, which is why it found nothing here. Match on the skills path
   #    instead -- that suffix is the same in all three -- and take the highest
   #    version within whichever tree answers first.
-  local root hit
-  for root in cache synced marketplaces; do
-    [ -d "${plugins}/${root}" ] || continue
-    hit=$(find "${plugins}/${root}" -maxdepth 7 -path "*/${gm_rel}" 2>/dev/null \
-          | sort -V | tail -1)
-    if [ -n "$hit" ]; then
-      printf '%s' "${hit%/${gm_rel}}"; return 0
-    fi
+  # Both hosts keep plugins in their own tree, and a machine can have both
+  # installed with the engine in only one of them. Note the loop returns on the
+  # first HIT, not the first tree that exists -- stopping at an existing but
+  # empty tree is how this would report a good install as missing, and it would
+  # not reproduce on a machine that has both.
+  #
+  #   ~/.claude/plugins/cache/<marketplace>/<plugin>/<version>/skills/...
+  #   ~/.claude/plugins/synced/<bucket>/<plugin>/skills/...
+  #   ~/.claude/plugins/marketplaces/<marketplace>/skills/...
+  #   ~/.codex/plugins/cache/<marketplace>/<plugin>/<version>/skills/...
+  #
+  # Only the two caches have a version segment, so match on the skills-path
+  # suffix -- the one part that is identical in all four -- and take the
+  # highest version within whichever tree answers.
+  local host_tree root hit
+  for host_tree in "${HOME:-}/.claude/plugins" "${HOME:-}/.codex/plugins"; do
+    [ -d "$host_tree" ] || continue
+    for root in cache synced marketplaces; do
+      [ -d "${host_tree}/${root}" ] || continue
+      hit=$(find "${host_tree}/${root}" -maxdepth 7 -path "*/${gm_rel}" 2>/dev/null \
+            | sort -V | tail -1)
+      if [ -n "$hit" ]; then
+        printf '%s' "${hit%/${gm_rel}}"; return 0
+      fi
+    done
   done
 
   # 5. Local development: --plugin-dir siblings, or a checkout next door.

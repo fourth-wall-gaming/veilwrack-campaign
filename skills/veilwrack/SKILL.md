@@ -11,11 +11,15 @@ engine structurally cannot know.
 
 ## 1. Where this campaign's files are
 
+`$VW` is this package's root. The preflight prints it as `VEILWRACK_ROOT=<path>`
+at session start; failing that it is the directory two levels above this
+`SKILL.md`. A plugin-root environment variable is not it — your host sets one for
+hook commands only, never in your shell.
+
 A plugin cannot resolve a sibling plugin's root, so the engine cannot tell you
 where this campaign lives. Here it is:
 
 ```bash
-VW="${CLAUDE_PLUGIN_ROOT}"
 . "${VW}/scripts/engine.sh"    # sets GM_ROOT, GM_SKILL, GM_CLI and a gm() function
 ```
 
@@ -38,7 +42,7 @@ myth-campaign-ac1041cfb4fb
 
 Fixed, shipped in `campaign.yaml`, identical on every install. Set
 `MYTH_CAMPAIGN` to it and stop passing `--campaign`. A first run needs
-`/veilwrack:start`, which imports it. If `get-campaign` on that id fails the
+the **`veilwrack-start`** skill (`/veilwrack:start` in Claude Code), which imports it. If `get-campaign` on that id fails the
 campaign is not imported yet — say so rather than improvising, and **never GM
 from the files in this package**: they are a source export, not the save, and
 edits to them never reach the game.
@@ -80,6 +84,12 @@ on a contributor's checkout: it is somebody else's game and reading it will make
 you tell this one wrong.
 
 ## 5. This campaign's own conventions
+
+- **Every Alar is `--species avian`.** Pass it on `create-character`; the
+  engine's default is `humanoid`, which is correct for every other campaign and
+  wrong for a sky realm. Wings, avian hit locations and a flying movement rate
+  are not decoration here — they are what every scene assumes.
+
 
 - **`brief --id <location>` before you describe anywhere.** Spires are not
   interchangeable and the staging notes carry the air.

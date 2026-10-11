@@ -21,12 +21,18 @@ ENGINE = ROOT / "scripts" / "engine.sh"
 HOOK = ROOT / "scripts" / "session-start.sh"
 GM_REL = "skills/mythras-gm/mythras_gm.py"
 
-# Every layout Claude Code is known to install a plugin into. Only the first
-# has a version segment, which is exactly what the old probe assumed.
+# Every layout a host is known to install a plugin into. Only the Claude Code
+# cache and the Codex cache have a version segment, which is exactly what the
+# old probe assumed of all of them.
 LAYOUTS = {
     "cache": ".claude/plugins/cache/fourth-wall-gaming/mythras-gm/1.0.0",
     "synced": ".claude/plugins/synced/aaaa_bbbb/mythras-gm",
     "marketplaces": ".claude/plugins/marketplaces/fourth-wall-gaming",
+    # Codex: ~/.codex/plugins/cache/$MARKETPLACE/$PLUGIN/$VERSION/, and a
+    # locally-sourced marketplace entry installs with the literal version
+    # "local" rather than a number.
+    "codex-cache": ".codex/plugins/cache/fourth-wall-gaming/mythras-gm/1.0.0",
+    "codex-local": ".codex/plugins/cache/fourth-wall-gaming/mythras-gm/local",
 }
 
 
@@ -54,6 +60,7 @@ def _source_engine(home, cwd):
 def empty_home(tmp_path):
     h = tmp_path / "home"
     (h / ".claude").mkdir(parents=True)
+    (h / ".codex").mkdir(parents=True)
     return h
 
 
@@ -148,3 +155,121 @@ def test_the_hook_never_exits_non_zero(plugin_root_set, empty_home, tmp_path):
     assert "not installed" in r.stdout, (
         "with no engine reachable the hook must say so plainly, and must not "
         f"have gone on to touch a database:\n{r.stdout}")
+
+
+def test_the_host_neutral_breadcrumb_is_read(empty_home, tmp_path):
+    """The engine writes ~/.mythras-gm/engine-root as well as the original
+    under ~/.claude. Reading one file beats searching four trees."""
+    engine = tmp_path / "engine"
+    (engine / GM_REL).parent.mkdir(parents=True)
+    (engine / GM_REL).touch()
+    pointer = empty_home / ".mythras-gm" / "engine-root"
+    pointer.parent.mkdir(parents=True)
+    pointer.write_text(str(engine) + "\n")
+
+    nowhere = tmp_path / "nowhere"
+    nowhere.mkdir()
+    got, err = _source_engine(empty_home, nowhere)
+    assert got == str(engine), f"host-neutral breadcrumb not read: {got}\n{err}"
+
+
+def test_the_legacy_breadcrumb_still_works_alone(empty_home, tmp_path):
+    """Review Focus 5: the engine is a separately versioned plugin. An install
+    running an older engine writes only ~/.claude/mythras-gm/engine-root, and
+    this campaign must keep working against it."""
+    engine = tmp_path / "engine"
+    (engine / GM_REL).parent.mkdir(parents=True)
+    (engine / GM_REL).touch()
+    pointer = empty_home / ".claude" / "mythras-gm" / "engine-root"
+    pointer.parent.mkdir(parents=True, exist_ok=True)
+    pointer.write_text(str(engine) + "\n")
+
+    nowhere = tmp_path / "nowhere"
+    nowhere.mkdir()
+    got, err = _source_engine(empty_home, nowhere)
+    assert got == str(engine), f"legacy breadcrumb not read: {got}\n{err}"
+
+
+def test_a_codex_install_is_found_when_the_claude_tree_exists_but_is_empty(
+        empty_home, tmp_path):
+    """Review Focus 1. A machine with both agents installed has both trees on
+    disk; only one holds the engine. A loop that stops at the first tree that
+    EXISTS rather than the first that HITS reports the engine as missing on a
+    perfectly good install -- and both directories exist on this developer's
+    own machine, so the bug would not show up locally."""
+    (empty_home / ".claude" / "plugins" / "cache").mkdir(parents=True)
+    root = empty_home / LAYOUTS["codex-cache"]
+    (root / GM_REL).parent.mkdir(parents=True)
+    (root / GM_REL).touch()
+
+    nowhere = tmp_path / "nowhere"
+    nowhere.mkdir()
+    got, err = _source_engine(empty_home, nowhere)
+    assert got == str(root), f"expected {root}, got {got or '<empty>'}\n{err}"
+
+
+def test_no_home_at_all_is_a_miss_not_an_abort(tmp_path):
+    """Review Focus 2: cron, or a bare container. Under `set -u` an unguarded
+    ${HOME} aborts the hook that sourced this, which is the one thing the
+    hook's header promises never happens."""
+    import os
+    import subprocess
+    env = dict(os.environ)
+    for k in ("MYTHRAS_GM_ROOT", "CLAUDE_PLUGIN_ROOT", "CLAUDE_PROJECT_DIR",
+              "HOME"):
+        env.pop(k, None)
+    nowhere = tmp_path / "nowhere"
+    nowhere.mkdir()
+    r = subprocess.run(
+        ["bash", "-c", f'set -uo pipefail; . "{ENGINE}"; printf "%s" "${{GM_ROOT:-}}"'],
+        capture_output=True, text=True, env=env, cwd=str(nowhere),
+    )
+    assert "unbound variable" not in r.stderr, r.stderr
+    assert r.returncode == 0, f"exit {r.returncode}: {r.stderr}"
+
+
+def test_the_hook_publishes_the_campaign_root_absolutely(empty_home, tmp_path):
+    """The skill needs this package's own path and cannot compute it: a skill
+    body is prose, and the plugin-root variable a host substitutes into it
+    under Claude Code expands to nothing under Codex. The hook CAN resolve it
+    -- both hosts set the variable for hook commands -- so the hook publishes
+    it and the skill reads it from there. Same fix as the engine's own.
+    """
+    import shutil
+    import subprocess
+    staged = tmp_path / "staged-plugin"
+    (staged / "scripts").mkdir(parents=True)
+    for name in ("engine.sh", "session-start.sh"):
+        shutil.copy2(ROOT / "scripts" / name, staged / "scripts" / name)
+
+    env = _clean_env(empty_home)
+    env["CLAUDE_PLUGIN_ROOT"] = str(staged)
+    r = subprocess.run(["bash", str(staged / "scripts" / "session-start.sh")],
+                       capture_output=True, text=True, env=env, cwd=str(staged))
+
+    assert r.returncode == 0, f"exit {r.returncode}\n{r.stdout}\n{r.stderr}"
+    assert f"VEILWRACK_ROOT={staged}" in r.stdout, (
+        "the hook must publish this package's absolute path in every branch; "
+        f"without it a Codex session has no path to the campaign files:\n{r.stdout}")
+
+
+def test_the_hook_names_a_skill_not_only_a_slash_command(empty_home, tmp_path):
+    """Review Focus 4. Codex has no commands component, so an instruction to
+    type /purewater:start is an instruction a Codex user cannot follow."""
+    import shutil
+    import subprocess
+    staged = tmp_path / "staged-plugin"
+    (staged / "scripts").mkdir(parents=True)
+    for name in ("engine.sh", "session-start.sh"):
+        shutil.copy2(ROOT / "scripts" / name, staged / "scripts" / name)
+    env = _clean_env(empty_home)
+    env["CLAUDE_PLUGIN_ROOT"] = str(staged)
+    out = subprocess.run(["bash", str(staged / "scripts" / "session-start.sh")],
+                         capture_output=True, text=True, env=env,
+                         cwd=str(staged)).stdout
+
+    assert "veilwrack-start" in out, (
+        "the engine-missing branch sends the player to a Claude-Code-only "
+        f"install command with no skill named:\n{out}")
+    assert "/plugin install" not in out, (
+        "that command does not exist in Codex; describe the plugin browser")
