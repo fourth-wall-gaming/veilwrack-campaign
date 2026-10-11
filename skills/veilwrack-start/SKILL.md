@@ -129,8 +129,15 @@ For a pregen:
 gm update-campaign --campaign myth-campaign-ac1041cfb4fb --played <chosen-pc-id>
 ```
 
-For a rolled character: `create-character --type pc`, then **`move-character` to
-a real spire** — without that they are nowhere.
+For a rolled character: **`create-character --type pc --species avian`**, then
+**`move-character` to a real spire** — without that they are nowhere.
+
+**`--species avian` is not optional here.** The Alar are winged: avian hit
+locations, a Flight skill and a flying movement rate are the whole body plan of
+this setting, and an Alar without them cannot do the one thing every scene in
+Veilwrack assumes. The engine's default is `humanoid`, which is right for every
+other campaign and wrong for this one, so this is the campaign that has to say
+so.
 
 Then, either way:
 

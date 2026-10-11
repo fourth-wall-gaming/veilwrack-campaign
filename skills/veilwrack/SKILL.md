@@ -85,6 +85,12 @@ you tell this one wrong.
 
 ## 5. This campaign's own conventions
 
+- **Every Alar is `--species avian`.** Pass it on `create-character`; the
+  engine's default is `humanoid`, which is correct for every other campaign and
+  wrong for a sky realm. Wings, avian hit locations and a flying movement rate
+  are not decoration here — they are what every scene assumes.
+
+
 - **`brief --id <location>` before you describe anywhere.** Spires are not
   interchangeable and the staging notes carry the air.
 - **Organizations have stated aims and real ones.** When an NPC speaks for one,
